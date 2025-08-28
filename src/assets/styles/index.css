@@ -53,3 +53,200 @@ body {
   background-attachment: fixed;
   background-repeat: no-repeat;
 }
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.1s ease, opacity 0.2s, box-shadow 0.2s ease;
+  outline: none;
+  gap: 1rem;
+}
+
+/* .button--primary {
+  background-color: var(--color-indigo-500);
+  color: var(--color-white);
+
+  &:hover:not(:disabled) {
+    background-color: var(--color-indigo-700);
+    filter: none;
+  }
+
+  &:focus-visible {
+    outline: 2px solid var(--color-indigo-500);
+    outline-offset: 2px; 
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.5);
+  }
+
+  &:active:not(:disabled) {
+    background-color: var(--color-indigo-800);
+    transform: scale(0.98);
+    border: 1px solid var(--color-indigo-800);
+  }
+} */
+
+.button--amber {
+  background-color: var(--color-amber-500);
+  color: var(--color-white);
+  box-shadow: 0 4px var(--color-amber-600);
+
+  &:hover:not(:disabled) {
+    background-color: var(--color-amber-600);
+    transform: translateY(2px);
+    box-shadow: 0 2px var(--color-amber-600);
+  }
+
+  &:focus-visible {
+    outline: 2px solid var(--color-amber-500);
+    outline-offset: 2px;
+    box-shadow: 0 0 0 3px var(--color-amber-300);
+  }
+
+  &:active:not(:disabled) {
+    background-color: var(--color-amber-700);
+    transform: translateY(4px);
+    box-shadow: none;
+  }
+}
+
+/* .button--secondary {
+  background-color: var(--color-slate-100);
+  color: var(--color-slate-800);
+  box-shadow: none;
+  border: 1px solid var(--color-slate-200);
+
+  &:hover:not(:disabled) {
+    background-color: var(--color-slate-200);
+    filter: none;
+  }
+
+  &:focus-visible {
+    box-shadow: 0 0 0 3px rgba(100, 116, 139, 0.5);
+  }
+
+  &:active:not(:disabled) {
+    background-color: var(--color-slate-300);
+    border-color: var(--color-slate-300);
+  }
+} */
+
+.button--green {
+  background-color: var(--color-green-500);
+  color: var(--color-white);
+  box-shadow: 0 4px var(--color-green-600);
+
+  &:hover:not(:disabled) {
+    background-color: var(--color-green-600);
+    transform: translateY(2px);
+    box-shadow: 0 2px var(--color-green-600);
+  }
+
+  &:focus-visible {
+    outline: 2px solid var(--color-green-500);
+    outline-offset: 2px;
+    box-shadow: 0 0 0 3px var(--color-green-300);
+  }
+
+  &:active:not(:disabled) {
+    background-color: var(--color-green-700);
+    transform: translateY(4px);
+    box-shadow: none;
+  }
+}
+/* 
+.button--danger {
+  background-color: var(--color-red-600);
+  color: var(--color-white);
+
+  &:hover:not(:disabled) {
+    background-color: var(--color-red-700);
+    filter: none;
+  }
+
+  &:focus-visible {
+    box-shadow: 0 0 0 3px rgba(220, 38, 38, 0.5);
+  }
+
+  &:active:not(:disabled) {
+    background-color: var(--color-red-800);
+  }
+} */
+
+
+.button--sky {
+  background-color: var(--color-sky-500);
+  color: var(--color-white);
+  box-shadow: 0 4px var(--color-sky-600);
+
+  &:hover:not(:disabled) {
+    background-color: var(--color-sky-600);
+    transform: translateY(2px);
+    box-shadow: 0 2px var(--color-sky-600);
+  }
+
+  &:focus-visible {
+    outline: 2px solid var(--color-sky-500);
+    outline-offset: 2px;
+    box-shadow: 0 0 0 3px var(--color-sky-300);
+  }
+
+  &:active:not(:disabled) {
+    background-color: var(--color-sky-700);
+    transform: translateY(4px);
+    box-shadow: none;
+  }
+}
+
+/* .button--outline {
+  background-color: var(--color-white);
+  color: var(--color-slate-700);
+  box-shadow: none;
+  padding: 0.5rem 1.25rem;
+
+  &:hover:not(:disabled) {
+    background-color: var(--color-slate-100);
+    filter: none;
+  }
+
+  &:focus-visible {
+    outline: 2px solid var(--color-indigo-500);
+    outline-offset: 2px;
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.5);
+  }
+
+  &:active:not(:disabled) {
+    background-color: var(--color-slate-200);
+    border-color: var(--color-slate-400);
+  }
+  &.button_active {
+    background-color: var(--color-slate-100);
+    border-color: var(--color-slate-300);
+  }
+} */
+
+.button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.button__spinner {
+  width: 1rem;
+  height: 1rem;
+  margin-right: 0.5rem;
+  border: 2px solid currentColor;
+  border-top: 2px solid transparent;
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}

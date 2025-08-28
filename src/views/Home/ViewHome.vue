@@ -1,7 +1,14 @@
 <template>
   <BasePage>
-    <div class="dinosaur-grid">
-      <DinosaurCard v-for="dinosaur in dinosaurs" :dinosaur :key="dinosaur.id" />
+    <div class="grid grid-cols-6 gap-5 p-5">
+      <DinosaurCard
+        v-for="dinosaur in dinosaurs"
+        :dinosaur
+        :imageUrl="dinosaur.imageUrl"
+        :key="dinosaur.id"
+        @click="openDinosaurModal(dinosaur)"
+      />
+      <DinosaurInfoModal ref="dinosaurModal" />
     </div>
   </BasePage>
 </template>
@@ -10,28 +17,14 @@
 import BasePage from '@/components/BasePage/BasePage.vue';
 import DinosaurCard from '@/components/DinosaurCard/DinosaurCard.vue';
 import { ref } from 'vue';
+import dinosaursData from '@/assets/data/data.json';
+import DinosaurInfoModal from '@/components/DinosaurInfoModal/DinosaurInfoModal.vue';
 
-const dinosaurs = ref([
-  { id: 1, name: 'Stegosaurus' },
-  { id: 2, name: 'Tyrannosaurus Rex' },
-  { id: 3, name: 'Brontosaurus' },
-  { id: 4, name: 'Brontosaurus' },
-  { id: 5, name: 'Brontosaurus' },
-  { id: 6, name: 'Brontosaurus' },
-  { id: 7, name: 'Brontosaurus' },
-  { id: 8, name: 'Brontosaurus' },
-  { id: 9, name: 'Brontosaurus' },
-  { id: 10, name: 'Brontosaurus' },
-  { id: 11, name: 'Brontosaurus' },
-  { id: 12, name: 'Stegosaurus' },
-]);
+const dinosaurs = ref(dinosaursData);
+
+const dinosaurModal = ref<InstanceType<typeof DinosaurInfoModal> | null>(null);
+
+const openDinosaurModal = (dinosaur) => {
+  dinosaurModal.value?.openDialog(dinosaur);
+};
 </script>
-
-<style>
-.dinosaur-grid {
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  gap: 20px;
-  padding: 20px;
-}
-</style>
