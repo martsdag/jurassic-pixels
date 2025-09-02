@@ -6,8 +6,14 @@
     "description": "A herbivorous dinosaur known for the plates on its back and spikes on its tail. Its name means 'roof lizard'.",
     "type": "Herbivore",
     "diet": "Ferns and conifers",
-    "favorites": ["Sunlight", "Calm environment"],
-    "dislikes": ["Fast running", "Hunters"]
+    "favorites": [
+      { "text": "Sunlight", "emoji": "☀️" },
+      { "text": "Calm environment", "emoji": "😌" }
+    ],
+    "dislikes": [
+      { "text": "Fast running", "emoji": "🏃💨" },
+      { "text": "Hunters", "emoji": "🦖" }
+    ]
   },
   {
     "id": 2,
@@ -16,8 +22,14 @@
     "description": "One of the longest dinosaurs with a very long tail that could be used like a whip.",
     "type": "Herbivore",
     "diet": "Soft vegetation",
-    "favorites": ["Tall trees", "Water bodies"],
-    "dislikes": ["Dry food", "Predators"]
+    "favorites": [
+      { "text": "Tall trees", "emoji": "🌳" },
+      { "text": "Water bodies", "emoji": "💧" }
+    ],
+    "dislikes": [
+      { "text": "Dry food", "emoji": "🌵" },
+      { "text": "Predators", "emoji": "🐅" }
+    ]
   },
   {
     "id": 3,
@@ -26,8 +38,14 @@
     "description": "A large bipedal predator with powerful jaws and small crests above its eyes.",
     "type": "Carnivore",
     "diet": "Large herbivores",
-    "favorites": ["Meat", "Pack hunting"],
-    "dislikes": ["Territorial disputes", "Small creatures"]
+    "favorites": [
+      { "text": "Meat", "emoji": "🍖" },
+      { "text": "Pack hunting", "emoji": "🤝" }
+    ],
+    "dislikes": [
+      { "text": "Territorial disputes", "emoji": "💢" },
+      { "text": "Small creatures", "emoji": "🐜" }
+    ]
   },
   {
     "id": 4,
@@ -36,8 +54,14 @@
     "description": "One of the tallest dinosaurs. Its front legs were longer than the back legs, allowing it to reach tall trees.",
     "type": "Herbivore",
     "diet": "Leaves and cones",
-    "favorites": ["Long neck", "Juicy foliage"],
-    "dislikes": ["Low shrubs", "Swampy terrain"]
+    "favorites": [
+      { "text": "Long neck", "emoji": "🦒" },
+      { "text": "Juicy foliage", "emoji": "🌿" }
+    ],
+    "dislikes": [
+      { "text": "Low shrubs", "emoji": "🌳" },
+      { "text": "Swampy terrain", "emoji": "늪" }
+    ]
   },
   {
     "id": 5,
@@ -46,8 +70,14 @@
     "description": "A predator known for its two semicircular crests on the skull. It was possibly capable of spitting venom.",
     "type": "Carnivore",
     "diet": "Small and medium prey",
-    "favorites": ["Ambush attacks", "Bright crests"],
-    "dislikes": ["Large prey", "Bright sunlight"]
+    "favorites": [
+      { "text": "Ambush attacks", "emoji": "👻" },
+      { "text": "Bright crests", "emoji": "✨" }
+    ],
+    "dislikes": [
+      { "text": "Large prey", "emoji": "🐗" },
+      { "text": "Bright sunlight", "emoji": "🥵" }
+    ]
   },
   {
     "id": 6,
@@ -56,8 +86,14 @@
     "description": "One of the smallest dinosaurs, about the size of a chicken. It fed on insects and small lizards.",
     "type": "Carnivore",
     "diet": "Insects",
-    "favorites": ["Hiding in grass", "Fast running"],
-    "dislikes": ["Large predators", "Open spaces"]
+    "favorites": [
+      { "text": "Hiding in grass", "emoji": "🌾" },
+      { "text": "Fast running", "emoji": "💨" }
+    ],
+    "dislikes": [
+      { "text": "Large predators", "emoji": "🦁" },
+      { "text": "Open spaces", "emoji": "🏞️" }
+    ]
   },
   {
     "id": 7,
@@ -66,8 +102,14 @@
     "description": "A huge long-necked dinosaur that fed on plants. Often depicted with its neck held high.",
     "type": "Herbivore",
     "diet": "Tree leaves",
-    "favorites": ["Bathing", "Tall trees"],
-    "dislikes": ["Loud noises", "Carnivores"]
+    "favorites": [
+      { "text": "Bathing", "emoji": "🛀" },
+      { "text": "Tall trees", "emoji": "🌳" }
+    ],
+    "dislikes": [
+      { "text": "Loud noises", "emoji": "🔊" },
+      { "text": "Carnivores", "emoji": "🦖" }
+    ]
   },
   {
     "id": 8,
@@ -76,8 +118,14 @@
     "description": "A transitional form between dinosaurs and birds, it had feathers but also teeth and a long tail.",
     "type": "Omnivore",
     "diet": "Insects and small animals",
-    "favorites": ["Flying", "Tree branches"],
-    "dislikes": ["Strong winds", "Large predators"]
+    "favorites": [
+      { "text": "Flying", "emoji": "🕊️" },
+      { "text": "Tree branches", "emoji": "🌳" }
+    ],
+    "dislikes": [
+      { "text": "Strong winds", "emoji": "🌬️" },
+      { "text": "Large predators", "emoji": "🦅" }
+    ]
   },
   {
     "id": 9,
@@ -86,8 +134,14 @@
     "description": "One of the first described dinosaurs, a large predator that shaped many early ideas of dinosaurs.",
     "type": "Carnivore",
     "diet": "Other dinosaurs",
-    "favorites": ["Large prey", "Sunbathing"],
-    "dislikes": ["Volcanic eruptions", "Small limbs"]
+    "favorites": [
+      { "text": "Large prey", "emoji": "🍖" },
+      { "text": "Sunbathing", "emoji": "☀️" }
+    ],
+    "dislikes": [
+      { "text": "Volcanic eruptions", "emoji": "🌋" },
+      { "text": "Small limbs", "emoji": "🤏" }
+    ]
   },
   {
     "id": 10,
@@ -96,8 +150,14 @@
     "description": "A huge herbivorous dinosaur with a long neck and tail. Its name means 'deceptive lizard'.",
     "type": "Herbivore",
     "diet": "Plants",
-    "favorites": ["Peaceful lifestyle", "Swampy forests"],
-    "dislikes": ["Loud noises", "Carnivores"]
+    "favorites": [
+      { "text": "Peaceful lifestyle", "emoji": "🧘" },
+      { "text": "Swampy forests", "emoji": "🌿" }
+    ],
+    "dislikes": [
+      { "text": "Loud noises", "emoji": "🔊" },
+      { "text": "Carnivores", "emoji": "🍖" }
+    ]
   },
   {
     "id": 11,
@@ -106,8 +166,14 @@
     "description": "A large sauropod with a long neck, a herbivore that lived in what is now North America.",
     "type": "Herbivore",
     "diet": "Tree foliage",
-    "favorites": ["Roaming plains", "Pastures"],
-    "dislikes": ["Drought", "Cold weather"]
+    "favorites": [
+      { "text": "Roaming plains", "emoji": "🏞️" },
+      { "text": "Pastures", "emoji": "🌱" }
+    ],
+    "dislikes": [
+      { "text": "Drought", "emoji": "🥵" },
+      { "text": "Cold weather", "emoji": "🥶" }
+    ]
   },
   {
     "id": 12,
@@ -116,7 +182,13 @@
     "description": "A herbivorous dinosaur known for its three facial horns and a bony frill protecting its neck.",
     "type": "Herbivore",
     "diet": "Low-growing plants",
-    "favorites": ["Strong horns", "Rivalry"],
-    "dislikes": ["Predators", "Tall bushes"]
+    "favorites": [
+      { "text": "Strong horns", "emoji": "💪" },
+      { "text": "Rivalry", "emoji": "🥊" }
+    ],
+    "dislikes": [
+      { "text": "Predators", "emoji": "🦖" },
+      { "text": "Tall bushes", "emoji": "🌳" }
+    ]
   }
 ]
