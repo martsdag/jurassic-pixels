@@ -5,7 +5,7 @@
   >
     <div class="rounded-sm p-2 text-center bg-white/80">
       <img :src="imageUrl" :alt="dinosaur.name" class="w-full h-auto object-cover rounded-sm mb-2" />
-      <h3 class="text-xl font-bold mb-1">{{ dinosaur.name }}</h3>
+      <h3 class="text-xl font-bold mb-1 truncate" :title="dinosaur.name">{{ dinosaur.name }}</h3>
     </div>
   </div>
 </template>

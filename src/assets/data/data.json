@@ -190,5 +190,789 @@
       { "text": "Predators", "emoji": "🦖" },
       { "text": "Tall bushes", "emoji": "🌳" }
     ]
-  }
+  },
+  {
+    "id": 13,
+    "name": "Tyrannosaurus Rex",
+    "imageUrl": "/dinos/tyrannosaurus.png",
+    "description": "The 'king of the tyrant lizards,' a large carnivorous dinosaur with a massive skull and powerful jaws.",
+    "type": "Carnivore",
+    "diet": "Large herbivores",
+    "favorites": [
+      { "text": "Roaring", "emoji": "🔊" },
+      { "text": "T-Rex hunting", "emoji": "🍖" }
+    ],
+    "dislikes": [
+      { "text": "Tiny arms", "emoji": "🤏" },
+      { "text": "Running fast", "emoji": "🏃💨" }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Velociraptor",
+    "imageUrl": "/dinos/velociraptor.png",
+    "description": "A small but cunning predator with a large claw on each hindfoot. It was a fast runner.",
+    "type": "Carnivore",
+    "diet": "Small animals",
+    "favorites": [
+      { "text": "Hunting in packs", "emoji": "👥" },
+      { "text": "Solving puzzles", "emoji": "🧠" }
+    ],
+    "dislikes": [
+      { "text": "Big dinosaurs", "emoji": "🦖" },
+      { "text": "Being alone", "emoji": "😔" }
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Ankylosaurus",
+    "imageUrl": "/dinos/ankylosaurus.png",
+    "description": "A large herbivore known for its extensive body armor and a massive club-like tail.",
+    "type": "Herbivore",
+    "diet": "Low-growing plants",
+    "favorites": [
+      { "text": "Swinging its tail", "emoji": "🏏" },
+      { "text": "Being a tank", "emoji": "🛡️" }
+    ],
+    "dislikes": [
+      { "text": "Being flipped over", "emoji": "🤸" },
+      { "text": "Surprise attacks", "emoji": "🤫" }
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Parasaurolophus",
+    "imageUrl": "/dinos/parasaurolophus.png",
+    "description": "A crested herbivore with a hollow tube on its head, possibly used for making sounds.",
+    "type": "Herbivore",
+    "diet": "Leaves and fruits",
+    "favorites": [
+      { "text": "Making music", "emoji": "🎵" },
+      { "text": "Being in a herd", "emoji": " herd" }
+    ],
+    "dislikes": [
+      { "text": "Loud noises", "emoji": "🔊" },
+      { "text": "Being quiet", "emoji": "🤫" }
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Pterodactyl",
+    "imageUrl": "/dinos/pterodactyl.png",
+    "description": "A flying reptile, not technically a dinosaur, known for its long, beak-like jaws and large wings.",
+    "type": "Carnivore",
+    "diet": "Fish and small animals",
+    "favorites": [
+      { "text": "Flying high", "emoji": "🦅" },
+      { "text": "Eating seafood", "emoji": "🦐" }
+    ],
+    "dislikes": [
+      { "text": "Land animals", "emoji": "🐾" },
+      { "text": "Storms", "emoji": "⛈️" }
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Spinosaurus",
+    "imageUrl": "/dinos/spinosaurus.png",
+    "description": "A large carnivorous dinosaur with a distinctive sail on its back. It lived both on land and in water.",
+    "type": "Carnivore",
+    "diet": "Fish and other dinosaurs",
+    "favorites": [
+      { "text": "Swimming", "emoji": "🏊" },
+      { "text": "Fishing", "emoji": "🎣" }
+    ],
+    "dislikes": [
+      { "text": "Land-based fighting", "emoji": "🥊" },
+      { "text": "Small ponds", "emoji": "🏞️" }
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Iguanodon",
+    "imageUrl": "/dinos/iguanodon.png",
+    "description": "A large herbivore with a unique thumb spike. It could walk on two or four legs.",
+    "type": "Herbivore",
+    "diet": "Plants",
+    "favorites": [
+      { "text": "Spikes", "emoji": "🔪" },
+      { "text": "Walking on two legs", "emoji": "🚶" }
+    ],
+    "dislikes": [
+      { "text": "Losing a fight", "emoji": "🤕" },
+      { "text": "Being in a forest", "emoji": "🌳" }
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Pachycephalosaurus",
+    "imageUrl": "/dinos/pachycephalosaurus.png",
+    "description": "A herbivore known for its thick, domed skull, used for head-butting during fights.",
+    "type": "Herbivore",
+    "diet": "Leaves and seeds",
+    "favorites": [
+      { "text": "Head-butting", "emoji": "🤯" },
+      { "text": "Showing off", "emoji": "🤩" }
+    ],
+    "dislikes": [
+      { "text": "Long conversations", "emoji": "🤫" },
+      { "text": "Running from a fight", "emoji": "🏃💨" }
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Troodon",
+    "imageUrl": "/dinos/troodon.png",
+    "description": "A small, fast predator with one of the largest brains for its body size among dinosaurs.",
+    "type": "Carnivore",
+    "diet": "Small animals",
+    "favorites": [
+      { "text": "Problem solving", "emoji": "🧠" },
+      { "text": "Hunting at night", "emoji": "🌙" }
+    ],
+    "dislikes": [
+      { "text": "Daylight hunting", "emoji": "☀️" },
+      { "text": "Being outsmarted", "emoji": "😑" }
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Anatosaurus",
+    "imageUrl": "/dinos/anatosaurus.png",
+    "description": "A large herbivore, often called 'duck-billed dinosaur' for its wide, flat snout.",
+    "type": "Herbivore",
+    "diet": "Plants",
+    "favorites": [
+      { "text": "Eating in groups", "emoji": "👥" },
+      { "text": "Water plants", "emoji": "🌿" }
+    ],
+    "dislikes": [
+      { "text": "Sprinting", "emoji": "🏃💨" },
+      { "text": "Loud noises", "emoji": "🔊" }
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Oviraptor",
+    "imageUrl": "/dinos/oviraptor.png",
+    "description": "A small, feathered dinosaur originally thought to steal eggs, though it likely protected them.",
+    "type": "Omnivore",
+    "diet": "Eggs, plants, insects",
+    "favorites": [
+      { "text": "Nesting", "emoji": "🥚" },
+      { "text": "Small snacks", "emoji": "🍪" }
+    ],
+    "dislikes": [
+      { "text": "Misunderstandings", "emoji": "🤔" },
+      { "text": "Threats to the nest", "emoji": "😠" }
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Pteranodon",
+    "imageUrl": "/dinos/pteranodon.png",
+    "description": "A large flying reptile with a distinctive crest and no teeth. It was a powerful glider.",
+    "type": "Carnivore",
+    "diet": "Fish",
+    "favorites": [
+      { "text": "Gliding", "emoji": "🌬️" },
+      { "text": "Soaring over water", "emoji": "🌊" }
+    ],
+    "dislikes": [
+      { "text": "Heavy storms", "emoji": "🌩️" },
+      { "text": "Wetting its wings", "emoji": "💧" }
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Giganotosaurus",
+    "imageUrl": "/dinos/giganotosaurus.png",
+    "description": "One of the largest known meat-eating dinosaurs, even larger than a T. Rex.",
+    "type": "Carnivore",
+    "diet": "Large sauropods",
+    "favorites": [
+      { "text": "Dominance", "emoji": "👑" },
+      { "text": "Hunting alone", "emoji": "🐺" }
+    ],
+    "dislikes": [
+      { "text": "Small territories", "emoji": "🗺️" },
+      { "text": "Rivals", "emoji": "🥊" }
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Argentinosaurus",
+    "imageUrl": "/dinos/argentinosaurus.png",
+    "description": "A massive sauropod, possibly the heaviest land animal of all time, with a very long neck and tail.",
+    "type": "Herbivore",
+    "diet": "Leaves from tall trees",
+    "favorites": [
+      { "text": "Being the largest", "emoji": "🏆" },
+      { "text": "Eating all day", "emoji": "😋" }
+    ],
+    "dislikes": [
+      { "text": "Sudden movements", "emoji": "💨" },
+      { "text": "Falling", "emoji": "💥" }
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Maiasaura",
+    "imageUrl": "/dinos/maiasaura.png",
+    "description": "A duck-billed dinosaur known for its parental care. Its name means 'good mother lizard.'",
+    "type": "Herbivore",
+    "diet": "Plants",
+    "favorites": [
+      { "text": "Raising children", "emoji": "👨‍👩‍👧‍👦" },
+      { "text": "Nesting colonies", "emoji": "🏘️" }
+    ],
+    "dislikes": [
+      { "text": "Threats to the nest", "emoji": "🚨" },
+      { "text": "Being alone", "emoji": "😔" }
+    ]
+  },
+  {
+    "id": 28,
+    "name": "Baryonyx",
+    "imageUrl": "/dinos/baryonyx.png",
+    "description": "A fish-eating dinosaur with a large, hook-like claw on its thumb. Its name means 'heavy claw.'",
+    "type": "Carnivore",
+    "diet": "Fish",
+    "favorites": [
+      { "text": "Fishing", "emoji": "🎣" },
+      { "text": "Riverside life", "emoji": "🏞️" }
+    ],
+    "dislikes": [
+      { "text": "Dry land", "emoji": "🏜️" },
+      { "text": "Sharing food", "emoji": "😡" }
+    ]
+  },
+  {
+    "id": 29,
+    "name": "Carnotaurus",
+    "imageUrl": "/dinos/carnotaurus.png",
+    "description": "A fast predator with two distinctive horns over its eyes. Its name means 'meat-eating bull'.",
+    "type": "Carnivore",
+    "diet": "Small and medium prey",
+    "favorites": [
+      { "text": "Speed", "emoji": "⚡" },
+      { "text": "Head horns", "emoji": "🤘" }
+    ],
+    "dislikes": [
+      { "text": "Long chases", "emoji": "🥵" },
+      { "text": "Unimpressive horns", "emoji": "😑" }
+    ]
+  },
+  {
+    "id": 30,
+    "name": "Kentrosaurus",
+    "imageUrl": "/dinos/kentrosaurus.png",
+    "description": "A smaller relative of Stegosaurus with long spikes on its tail and shoulders.",
+    "type": "Herbivore",
+    "diet": "Low-lying plants",
+    "favorites": [
+      { "text": "Staying safe", "emoji": "🛡️" },
+      { "text": "Spikes", "emoji": "🔪" }
+    ],
+    "dislikes": [
+      { "text": "Large predators", "emoji": "🦖" },
+      { "text": "Being defenseless", "emoji": "😨" }
+    ]
+  },
+  {
+    "id": 31,
+    "name": "Corythosaurus",
+    "imageUrl": "/dinos/corythosaurus.png",
+    "description": "A duck-billed dinosaur with a tall, helmet-like crest on its head, possibly used for communication.",
+    "type": "Herbivore",
+    "diet": "Soft plants",
+    "favorites": [
+      { "text": "Singing", "emoji": "🎤" },
+      { "text": "Herd life", "emoji": "👥" }
+    ],
+    "dislikes": [
+      { "text": "Loud noises", "emoji": "🔊" },
+      { "text": "Being alone", "emoji": "😔" }
+    ]
+  },
+  {
+    "id": 32,
+    "name": "Edmontosaurus",
+    "imageUrl": "/dinos/edmontosaurus.png",
+    "description": "A large herbivore that lived in North America. It had a flat, duck-like bill and was a herd animal.",
+    "type": "Herbivore",
+    "diet": "Pine needles and leaves",
+    "favorites": [
+      { "text": "Being in a herd", "emoji": "👥" },
+      { "text": "Peaceful grazing", "emoji": "😌" }
+    ],
+    "dislikes": [
+      { "text": "Big carnivores", "emoji": "🦖" },
+      { "text": "Cold winters", "emoji": "🥶" }
+    ]
+  },
+  {
+    "id": 33,
+    "name": "Dilong",
+    "imageUrl": "/dinos/dilong.png",
+    "description": "A small, feathered tyrannosaur from China. Its name means 'emperor dragon'.",
+    "type": "Carnivore",
+    "diet": "Small animals",
+    "favorites": [
+      { "text": "Feathers", "emoji": "🪶" },
+      { "text": "Quick movements", "emoji": "💨" }
+    ],
+    "dislikes": [
+      { "text": "Loud roars", "emoji": "🔊" },
+      { "text": "Being mistaken for a bird", "emoji": "🐔" }
+    ]
+  },
+  {
+    "id": 34,
+    "name": "Therizinosaurus",
+    "imageUrl": "/dinos/therizinosaurus.png",
+    "description": "A large dinosaur known for its massive claws, possibly used for reaching vegetation.",
+    "type": "Herbivore",
+    "diet": "Leaves and plants",
+    "favorites": [
+      { "text": "Long claws", "emoji": "🔪" },
+      { "text": "Grabbing food", "emoji": "🤏" }
+    ],
+    "dislikes": [
+      { "text": "Misuse of claws", "emoji": "🤔" },
+      { "text": "Small branches", "emoji": "🌳" }
+    ]
+  },
+  {
+    "id": 35,
+    "name": "Mapusaurus",
+    "imageUrl": "/dinos/mapusaurus.png",
+    "description": "A large carnivorous dinosaur that hunted in groups. Its name means 'Earth lizard'.",
+    "type": "Carnivore",
+    "diet": "Large herbivores",
+    "favorites": [
+      { "text": "Teamwork", "emoji": "👥" },
+      { "text": "Hunting", "emoji": "🍖" }
+    ],
+    "dislikes": [
+      { "text": "Solo hunting", "emoji": "🐺" },
+      { "text": "Slow prey", "emoji": "🐢" }
+    ]
+  },
+  {
+    "id": 36,
+    "name": "Cryolophosaurus",
+    "imageUrl": "/dinos/cryolophosaurus.png",
+    "description": "A crested predator from Antarctica. Its name means 'frozen crested lizard'.",
+    "type": "Carnivore",
+    "diet": "Small animals",
+    "favorites": [
+      { "text": "Antarctic weather", "emoji": "❄️" },
+      { "text": "Crest", "emoji": "👑" }
+    ],
+    "dislikes": [
+      { "text": "Warm climates", "emoji": "🥵" },
+      { "text": "Melting ice", "emoji": "🧊" }
+    ]
+  },
+  {
+    "id": 37,
+    "name": "Deinonychus",
+    "imageUrl": "/dinos/deinonychus.png",
+    "description": "A raptor known for its 'terrible claw' and intelligence. It was a pack hunter.",
+    "type": "Carnivore",
+    "diet": "Other dinosaurs",
+    "favorites": [
+      { "text": "Sharp claws", "emoji": "🔪" },
+      { "text": "Hunting in packs", "emoji": "👥" }
+    ],
+    "dislikes": [
+      { "text": "Being alone", "emoji": "😔" },
+      { "text": "Losing a fight", "emoji": "🤕" }
+    ]
+  },
+  {
+    "id": 38,
+    "name": "Carcharodontosaurus",
+    "imageUrl": "/dinos/carcharodontosaurus.png",
+    "description": "A large predator with 'shark-toothed' jaws. It was one of the largest carnivores.",
+    "type": "Carnivore",
+    "diet": "Large herbivores",
+    "favorites": [
+      { "text": "Sharp teeth", "emoji": "🦈" },
+      { "text": "Big meals", "emoji": "🍖" }
+    ],
+    "dislikes": [
+      { "text": "Broken teeth", "emoji": "🦷" },
+      { "text": "Scavenging", "emoji": " scavenge" }
+    ]
+  },
+  {
+    "id": 39,
+    "name": "Utahraptor",
+    "imageUrl": "/dinos/utahraptor.png",
+    "description": "The largest of the raptors, with a massive killing claw. It was a formidable predator.",
+    "type": "Carnivore",
+    "diet": "Large prey",
+    "favorites": [
+      { "text": "Size", "emoji": "💪" },
+      { "text": "Intimidation", "emoji": "😠" }
+    ],
+    "dislikes": [
+      { "text": "Smaller prey", "emoji": "🐜" },
+      { "text": "Being underestimated", "emoji": "😒" }
+    ]
+  },
+  {
+    "id": 40,
+    "name": "Sinornithosaurus",
+    "imageUrl": "/dinos/sinornithosaurus.png",
+    "description": "A small, feathered raptor from China, possibly venomous, known for its bird-like features.",
+    "type": "Carnivore",
+    "diet": "Small animals",
+    "favorites": [
+      { "text": "Feathers", "emoji": "🪶" },
+      { "text": "Venom", "emoji": "🐍" }
+    ],
+    "dislikes": [
+      { "text": "Unfeathered dinosaurs", "emoji": "🤨" },
+      { "text": "Being seen as a chicken", "emoji": "🐔" }
+    ]
+  },
+  {
+    "id": 41,
+    "name": "Nothronychus",
+    "imageUrl": "/dinos/nothronychus.png",
+    "description": "A strange-looking theropod with a small head, long neck, and huge claws, likely a herbivore.",
+    "type": "Herbivore",
+    "diet": "Plants",
+    "favorites": [
+      { "text": "Long neck", "emoji": "🦒" },
+      { "text": "Massive claws", "emoji": "🔪" }
+    ],
+    "dislikes": [
+      { "text": "Being mistaken for a carnivore", "emoji": "🤨" },
+      { "text": "Running", "emoji": "🏃" }
+    ]
+  },
+  {
+    "id": 42,
+    "name": "Plateosaurus",
+    "imageUrl": "/dinos/plateosaurus.png",
+    "description": "One of the first large herbivores, a long-necked dinosaur that could walk on two or four legs.",
+    "type": "Herbivore",
+    "diet": "Plants",
+    "favorites": [
+      { "text": "Two-legged walk", "emoji": "🚶" },
+      { "text": "Plant-based diet", "emoji": "🌿" }
+    ],
+    "dislikes": [
+      { "text": "Predators", "emoji": "🦖" },
+      { "text": "Small spaces", "emoji": " claustrophobic" }
+    ]
+  },
+  {
+    "id": 43,
+    "name": "Suchomimus",
+    "imageUrl": "/dinos/suchomimus.png",
+    "description": "A fish-eating dinosaur with a crocodile-like snout and a sail on its back.",
+    "type": "Carnivore",
+    "diet": "Fish and other animals",
+    "favorites": [
+      { "text": "Fishing", "emoji": "🎣" },
+      { "text": "Riverside life", "emoji": "🏞️" }
+    ],
+    "dislikes": [
+      { "text": "Dry land", "emoji": "🏜️" },
+      { "text": "Running fast", "emoji": "🏃💨" }
+    ]
+  },
+  {
+    "id": 44,
+    "name": "Ouranosaurus",
+    "imageUrl": "/dinos/ouranosaurus.png",
+    "description": "A duck-billed dinosaur with a tall, prominent sail on its back, likely for thermoregulation.",
+    "type": "Herbivore",
+    "diet": "Leaves and fruits",
+    "favorites": [
+      { "text": "Being unique", "emoji": "✨" },
+      { "text": "Sunny days", "emoji": "☀️" }
+    ],
+    "dislikes": [
+      { "text": "Rainy weather", "emoji": "🌧️" },
+      { "text": "Being mistaken for a Spinosaurus", "emoji": "🤨" }
+    ]
+  },
+  {
+    "id": 45,
+    "name": "Coelophysis",
+    "imageUrl": "/dinos/coelophysis.png",
+    "description": "A small, fast-moving predator that lived in the Triassic period. It was a lightweight dinosaur.",
+    "type": "Carnivore",
+    "diet": "Small animals and insects",
+    "favorites": [
+      { "text": "Speed", "emoji": "⚡" },
+      { "text": "Eating on the run", "emoji": "🏃💨" }
+    ],
+    "dislikes": [
+      { "text": "Large prey", "emoji": "🍖" },
+      { "text": "Being trampled", "emoji": "👣" }
+    ]
+  },
+  {
+    "id": 46,
+    "name": "Albertosaurus",
+    "imageUrl": "/dinos/albertosaurus.png",
+    "description": "A smaller relative of T. rex, a fast and powerful predator that hunted in packs.",
+    "type": "Carnivore",
+    "diet": "Other dinosaurs",
+    "favorites": [
+      { "text": "Team hunting", "emoji": "👥" },
+      { "text": "Being powerful", "emoji": "💪" }
+    ],
+    "dislikes": [
+      { "text": "Being underestimated", "emoji": "😒" },
+      { "text": "Small territories", "emoji": "🗺️" }
+    ]
+  },
+  {
+    "id": 47,
+    "name": "Daspletosaurus",
+    "imageUrl": "/dinos/daspletosaurus.png",
+    "description": "A large tyrannosaur with a powerful bite, living just before T. rex.",
+    "type": "Carnivore",
+    "diet": "Large herbivores",
+    "favorites": [
+      { "text": "Strong jaws", "emoji": "😬" },
+      { "text": "Dominating its territory", "emoji": "👑" }
+    ],
+    "dislikes": [
+      { "text": "Rivalry", "emoji": "🥊" },
+      { "text": "Sharing food", "emoji": "😡" }
+    ]
+  },
+  {
+    "id": 48,
+    "name": "Tarbosaurus",
+    "imageUrl": "/dinos/tarbosaurus.png",
+    "description": "A large predator from Asia, a close relative of T. rex, known for its robust build.",
+    "type": "Carnivore",
+    "diet": "Large dinosaurs",
+    "favorites": [
+      { "text": "Being robust", "emoji": "💪" },
+      { "text": "Sunbathing", "emoji": "☀️" }
+    ],
+    "dislikes": [
+      { "text": "Volcanic eruptions", "emoji": "🌋" },
+      { "text": "Small limbs", "emoji": "🤏" }
+    ]
+  },
+  {
+    "id": 49,
+    "name": "Yutyrannus",
+    "imageUrl": "/dinos/yutyrannus.png",
+    "description": "A large feathered tyrannosaur from China. Its name means 'feathered tyrant'.",
+    "type": "Carnivore",
+    "diet": "Large herbivores",
+    "favorites": [
+      { "text": "Feathers", "emoji": "🪶" },
+      { "text": "Being unique", "emoji": "✨" }
+    ],
+    "dislikes": [
+      { "text": "Being wet", "emoji": "💧" },
+      { "text": "Being too hot", "emoji": "🥵" }
+    ]
+  },
+  {
+    "id": 50,
+    "name": "Protoceratops",
+    "imageUrl": "/dinos/protoceratops.png",
+    "description": "A small herbivore with a large neck frill. Often found in large herds.",
+    "type": "Herbivore",
+    "diet": "Low-growing plants",
+    "favorites": [
+      { "text": "Being in a herd", "emoji": "👥" },
+      { "text": "Strong neck frill", "emoji": "🛡️" }
+    ],
+    "dislikes": [
+      { "text": "Fast predators", "emoji": "💨" },
+      { "text": "Loud noises", "emoji": "🔊" }
+    ]
+  },
+  {
+    "id": 51,
+    "name": "Centrosaurus",
+    "imageUrl": "/dinos/centrosaurus.png",
+    "description": "A horned herbivore with a large nose horn and a curved frill. Lived in large herds.",
+    "type": "Herbivore",
+    "diet": "Low-growing plants",
+    "favorites": [
+      { "text": "Impressive horns", "emoji": "🤘" },
+      { "text": "Herd life", "emoji": "👥" }
+    ],
+    "dislikes": [
+      { "text": "Being alone", "emoji": "😔" },
+      { "text": "Running from a fight", "emoji": "🏃💨" }
+    ]
+  },
+  {
+    "id": 52,
+    "name": "Styracosaurus",
+    "imageUrl": "/dinos/styracosaurus.png",
+    "description": "A large horned herbivore with a long nose horn and long spikes on its neck frill.",
+    "type": "Herbivore",
+    "diet": "Plants",
+    "favorites": [
+      { "text": "Impressive horns", "emoji": "🤘" },
+      { "text": "Protecting the herd", "emoji": "🛡️" }
+    ],
+    "dislikes": [
+      { "text": "Rivalry", "emoji": "🥊" },
+      { "text": "Being a loner", "emoji": " solitary" }
+    ]
+  },
+  {
+    "id": 53,
+    "name": "Pachyrhinosaurus",
+    "imageUrl": "/dinos/pachyrhinosaurus.png",
+    "description": "A large horned herbivore with a prominent, bony boss on its snout instead of a horn.",
+    "type": "Herbivore",
+    "diet": "Tough plants",
+    "favorites": [
+      { "text": "Powerful boss", "emoji": "👊" },
+      { "text": "Battering rivals", "emoji": "💥" }
+    ],
+    "dislikes": [
+      { "text": "Being misunderstood", "emoji": "🤔" },
+      { "text": "Hiding", "emoji": "🤫" }
+    ]
+  },
+  {
+    "id": 54,
+    "name": "Euoplocephalus",
+    "imageUrl": "/dinos/euoplocephalus.png",
+    "description": "A heavily armored herbivore with a club-like tail and spikes on its body.",
+    "type": "Herbivore",
+    "diet": "Low-growing plants",
+    "favorites": [
+      { "text": "Club-like tail", "emoji": "🏏" },
+      { "text": "Being well-defended", "emoji": "🛡️" }
+    ],
+    "dislikes": [
+      { "text": "Being flipped over", "emoji": "🤸" },
+      { "text": "Fast predators", "emoji": "🏃💨" }
+    ]
+  },
+  {
+    "id": 55,
+    "name": "Gastonia",
+    "imageUrl": "/dinos/gastonia.png",
+    "description": "An ankylosaur known for its large shoulder spikes and body armor.",
+    "type": "Herbivore",
+    "diet": "Low-growing plants",
+    "favorites": [
+      { "text": "Spiky shoulders", "emoji": "🔪" },
+      { "text": "Being intimidating", "emoji": "😠" }
+    ],
+    "dislikes": [
+      { "text": "Running fast", "emoji": "🏃💨" },
+      { "text": "Losing armor", "emoji": "🤕" }
+    ]
+  },
+  {
+    "id": 56,
+    "name": "Sauropelta",
+    "imageUrl": "/dinos/sauropelta.png",
+    "description": "An armored dinosaur with a thick shield and long spikes on its neck and shoulders.",
+    "type": "Herbivore",
+    "diet": "Low-growing plants",
+    "favorites": [
+      { "text": "Being a shield", "emoji": "🛡️" },
+      { "text": "Walking slowly", "emoji": "🐢" }
+    ],
+    "dislikes": [
+      { "text": "Getting tired", "emoji": "😩" },
+      { "text": "Speedy predators", "emoji": "⚡" }
+    ]
+  },
+  {
+    "id": 57,
+    "name": "Masiakasaurus",
+    "imageUrl": "/dinos/masiakasaurus.png",
+    "description": "A small, meat-eating dinosaur with forward-pointing teeth, possibly used for catching fish.",
+    "type": "Carnivore",
+    "diet": "Fish and small animals",
+    "favorites": [
+      { "text": "Fishing", "emoji": "🎣" },
+      { "text": "Strange teeth", "emoji": "🦷" }
+    ],
+    "dislikes": [
+      { "text": "Big prey", "emoji": "🍖" },
+      { "text": "Getting stuck", "emoji": " trapped" }
+    ]
+  },
+  {
+    "id": 58,
+    "name": "Ceratosaurus",
+    "imageUrl": "/dinos/ceratosaurus.png",
+    "description": "A medium-sized predator with a horn on its snout and bony ridges above its eyes.",
+    "type": "Carnivore",
+    "diet": "Other dinosaurs",
+    "favorites": [
+      { "text": "Impressive horns", "emoji": "🤘" },
+      { "text": "Being a solo hunter", "emoji": "🐺" }
+    ],
+    "dislikes": [
+      { "text": "Pack hunting", "emoji": "👥" },
+      { "text": "Being a small carnivore", "emoji": "😒" }
+    ]
+  },
+  {
+    "id": 59,
+    "name": "Bactrosaurus",
+    "imageUrl": "/dinos/bactrosaurus.png",
+    "description": "A duck-billed dinosaur with a less-pronounced crest than others, an early relative of the Hadrosaurids.",
+    "type": "Herbivore",
+    "diet": "Tough plants",
+    "favorites": [
+      { "text": "Being in a herd", "emoji": "👥" },
+      { "text": "Finding food", "emoji": "😋" }
+    ],
+    "dislikes": [
+      { "text": "Being alone", "emoji": "😔" },
+      { "text": "Losing to other herbivores", "emoji": "🤕" }
+    ]
+  },
+  {
+    "id": 60,
+    "name": "Saltasaurus",
+    "imageUrl": "/dinos/saltasaurus.png",
+    "description": "A sauropod with a shorter neck and body armor, which was unusual for its kind.",
+    "type": "Herbivore",
+    "diet": "Plants",
+    "favorites": [
+      { "text": "Body armor", "emoji": "🛡️" },
+      { "text": "Being protected", "emoji": "🔒" }
+    ],
+    "dislikes": [
+      { "text": "Long necks", "emoji": "😑" },
+      { "text": "Being vulnerable", "emoji": "😨" }
+    ]
+  },
+  {
+    "id": 61,
+    "name": "Nigersaurus",
+    "imageUrl": "/dinos/nigersaurus.png",
+    "description": "Known as the 'Mesozoic cow', this sauropod had a broad, straight mouth with over 500 teeth.",
+    "type": "Herbivore",
+    "diet": "Low-lying plants",
+    "favorites": [
+      { "text": "Dental battery", "emoji": "🦷" },
+      { "text": "Grassy plains", "emoji": "🌿" }
+    ],
+    "dislikes": [
+      { "text": "Meat-eaters", "emoji": "🍖" },
+      { "text": "Tough leaves", "emoji": "🍂" }
+    ]
+}
 ]

@@ -4,27 +4,49 @@
     :buttons="[{ id: 0, text: 'OK', class: 'button--amber', onClick: () => closeDialog() }]"
     ref="baseDialog"
   >
-    <div class="p-4 grid grid-cols-1 md:grid-cols-2 gap-4">
-      <img :src="dinosaur.imageUrl" :alt="dinosaur.name" class="w-full h-auto object-contain" />
-      <div>
-        <p class="mb-4 text-gray-700">{{ dinosaur.description }}</p>
+    <div class="grid grid-cols-2 gap-6">
+      <div class="flex flex-col gap-6">
+        <div class="border-2 border-gray-800 w-full aspect-square relative">
+          <img :src="dinosaur.imageUrl" :alt="dinosaur.name" class="absolute top-0 left-0 w-full h-full" />
+        </div>
+        <div class="border-2 border-gray-800 p-2">
+          <p>{{ dinosaur.description }}</p>
+        </div>
+      </div>
 
-        <div class="space-y-2">
+      <div class="flex flex-col gap-3">
+        <div class="border-2 border-gray-800 p-2">
           <p><strong>Type:</strong> {{ dinosaur.type }}</p>
+        </div>
+        <div class="border-2 border-gray-800 p-2">
           <p><strong>Diet:</strong> {{ dinosaur.diet }}</p>
+        </div>
 
-          <div v-if="dinosaur.favorites?.length">
-            <p><strong>Favorites:</strong></p>
-            <ul class="list-disc list-inside">
-              <li v-for="item in dinosaur.favorites" :key="item">{{ item }}</li>
-            </ul>
+        <div v-if="dinosaur.favorites?.length" class="border-2 border-gray-800 p-2">
+          <p class="font-bold">Favorites:</p>
+          <div class="flex flex-wrap gap-2">
+            <div
+              v-for="item in dinosaur.favorites"
+              class="border-2 border-gray-800 h-12 flex items-center justify-center p-2"
+              :title="item.text"
+              :key="item.text"
+            >
+              <span>{{ item.emoji }}</span>
+            </div>
           </div>
+        </div>
 
-          <div v-if="dinosaur.dislikes?.length">
-            <p><strong>Dislikes:</strong></p>
-            <ul class="list-disc list-inside">
-              <li v-for="item in dinosaur.dislikes" :key="item">{{ item }}</li>
-            </ul>
+        <div v-if="dinosaur.dislikes?.length" class="border-2 border-gray-800 p-2">
+          <p class="font-bold">Dislikes:</p>
+          <div class="flex flex-wrap gap-2">
+            <div
+              v-for="item in dinosaur.dislikes"
+              class="border-2 border-gray-800 h-12 flex items-center justify-center p-2"
+              :title="item.text"
+              :key="item.text"
+            >
+              <span>{{ item.emoji }}</span>
+            </div>
           </div>
         </div>
       </div>
@@ -34,10 +56,20 @@
 
 <script setup lang="ts">
 import BaseDialog from '@/components/BaseDialog/BaseDialog.vue';
+import type { Dinosaur } from '@/types/dinosaur';
 import { useTemplateRef, ref } from 'vue';
 
 const baseDialog = useTemplateRef('baseDialog');
-const dinosaur = ref({});
+const dinosaur = ref<Dinosaur>({
+  id: 0,
+  name: '',
+  imageUrl: '',
+  description: '',
+  type: '',
+  diet: '',
+  favorites: [],
+  dislikes: [],
+});
 
 const openDialog = (dinoData) => {
   dinosaur.value = dinoData;

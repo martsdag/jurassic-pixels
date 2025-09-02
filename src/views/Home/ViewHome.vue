@@ -1,6 +1,6 @@
 <template>
   <BasePage>
-    <div class="grid grid-cols-6 gap-5 p-5">
+    <div class="grid grid-cols-6 gap-5 p-15">
       <DinosaurCard
         v-for="dinosaur in dinosaurs"
         :dinosaur
