@@ -248,7 +248,7 @@
     "diet": "Leaves and fruits",
     "favorites": [
       { "text": "Making music", "emoji": "🎵" },
-      { "text": "Being in a herd", "emoji": " herd" }
+      { "text": "Being in a herd", "emoji": " 🐾" }
     ],
     "dislikes": [
       { "text": "Loud noises", "emoji": "🔊" },
@@ -604,7 +604,7 @@
     ],
     "dislikes": [
       { "text": "Broken teeth", "emoji": "🦷" },
-      { "text": "Scavenging", "emoji": " scavenge" }
+      { "text": "Scavenging", "emoji": "🦅" }
     ]
   },
   {
@@ -668,7 +668,7 @@
     ],
     "dislikes": [
       { "text": "Predators", "emoji": "🦖" },
-      { "text": "Small spaces", "emoji": " claustrophobic" }
+      { "text": "Small spaces", "emoji": "📦😰" }
     ]
   },
   {
@@ -828,7 +828,7 @@
     ],
     "dislikes": [
       { "text": "Rivalry", "emoji": "🥊" },
-      { "text": "Being a loner", "emoji": " solitary" }
+      { "text": "Being a loner", "emoji": "🐺🌙" }
     ]
   },
   {
@@ -908,7 +908,7 @@
     ],
     "dislikes": [
       { "text": "Big prey", "emoji": "🍖" },
-      { "text": "Getting stuck", "emoji": " trapped" }
+      { "text": "Getting stuck", "emoji": "🪤😵" }
     ]
   },
   {
@@ -974,5 +974,133 @@
       { "text": "Meat-eaters", "emoji": "🍖" },
       { "text": "Tough leaves", "emoji": "🍂" }
     ]
-}
+  },
+  {
+    "id": 62,
+    "name": "Deinocheirus",
+    "imageUrl": "/dinos/deinocheirus.png",
+    "description": "A very large ornithomimosaur with huge forelimbs and a sail on its back, likely an omnivore.",
+    "type": "Omnivore",
+    "diet": "Fish and plants",
+    "favorites": [
+      { "text": "Long arms", "emoji": "💪" },
+      { "text": "Riverside food", "emoji": "🎣" }
+    ],
+    "dislikes": [
+      { "text": "Running fast", "emoji": "🏃💨" },
+      { "text": "Being mistaken for a predator", "emoji": "🤔" }
+    ]
+  },
+  {
+    "id": 63,
+    "name": "Sinoceratops",
+    "imageUrl": "/dinos/sinoceratops.png",
+    "description": "A horned dinosaur from China with a unique, forward-curving frill.",
+    "type": "Herbivore",
+    "diet": "Low-growing plants",
+    "favorites": [
+      { "text": "Spiky frill", "emoji": "🛡️" },
+      { "text": "Showing off", "emoji": "🤩" }
+    ],
+    "dislikes": [
+      { "text": "Other ceratopsians", "emoji": "😒" },
+      { "text": "Loud noises", "emoji": "🔊" }
+    ]
+  },
+  {
+    "id": 64,
+    "name": "Tenontosaurus",
+    "imageUrl": "/dinos/tenontosaurus.png",
+    "description": "A herbivore that served as a common prey for Deinonychus, known for its long, stiff tail.",
+    "type": "Herbivore",
+    "diet": "Ferns and conifers",
+    "favorites": [
+      { "text": "Wagging my tail", "emoji": "💨" },
+      { "text": "Eating in peace", "emoji": "😌" }
+    ],
+    "dislikes": [
+      { "text": "Raptors", "emoji": "🔪" },
+      { "text": "Being a meal", "emoji": "🍖" }
+    ]
+  },
+  {
+    "id": 65,
+    "name": "Plesiosaurus",
+    "imageUrl": "/dinos/plesiosaurus.png",
+    "description": "A marine reptile with a very long neck and large flippers, a predator of the seas.",
+    "type": "Carnivore",
+    "diet": "Fish and squid",
+    "favorites": [
+      { "text": "Swimming", "emoji": "🏊" },
+      { "text": "Ocean life", "emoji": "🌊" }
+    ],
+    "dislikes": [
+      { "text": "Dry land", "emoji": "🏜️" },
+      { "text": "Sharks", "emoji": "🦈" }
+    ]
+  },
+  {
+    "id": 66,
+    "name": "Mosasaurus",
+    "imageUrl": "/dinos/mosasaurus.png",
+    "description": "A huge, marine reptile with a powerful tail and a row of sharp teeth. The 'T. rex of the sea'.",
+    "type": "Carnivore",
+    "diet": "Fish, sharks, and other marine reptiles",
+    "favorites": [
+      { "text": "Dominating the seas", "emoji": "👑" },
+      { "text": "Big prey", "emoji": "🍖" }
+    ],
+    "dislikes": [
+      { "text": "Land animals", "emoji": "🐾" },
+      { "text": "Small meals", "emoji": "🤏" }
+    ]
+  },
+  {
+    "id": 67,
+    "name": "Quetzalcoatlus",
+    "imageUrl": "/dinos/quetzalcoatlus.png",
+    "description": "One of the largest known flying animals, a pterosaur with a long, thin beak.",
+    "type": "Carnivore",
+    "diet": "Small dinosaurs and fish",
+    "favorites": [
+      { "text": "Flying high", "emoji": "🦅" },
+      { "text": "Gliding", "emoji": "🌬️" }
+    ],
+    "dislikes": [
+      { "text": "Storms", "emoji": "⛈️" },
+      { "text": "Strong winds", "emoji": "💨" }
+    ]
+  },
+  {
+    "id": 68,
+    "name": "Alligator mississippiensis",
+    "imageUrl": "/dinos/alligator.png",
+    "description": "A modern alligator, a living example of a survivor from the dinosaur age.",
+    "type": "Carnivore",
+    "diet": "Fish, reptiles, mammals",
+    "favorites": [
+      { "text": "Sunbathing", "emoji": "☀️" },
+      { "text": "Ambush hunting", "emoji": "👻" }
+    ],
+    "dislikes": [
+      { "text": "Cold weather", "emoji": "🥶" },
+      { "text": "Being too visible", "emoji": "👀" }
+    ]
+  },
+  {
+    "id": 69,
+    "name": "Gigantoraptor",
+    "imageUrl": "/dinos/gigantoraptor.png",
+    "description": "A huge, flightless, feathered dinosaur. It had a beak and no teeth.",
+    "type": "Omnivore",
+    "diet": "Eggs and plants",
+    "favorites": [
+      { "text": "Nesting", "emoji": "🥚" },
+      { "text": "Feathers", "emoji": "🪶" }
+    ],
+    "dislikes": [
+      { "text": "Meat", "emoji": "🍖" },
+      { "text": "Being alone", "emoji": "😔" }
+    ]
+  }
 ]
