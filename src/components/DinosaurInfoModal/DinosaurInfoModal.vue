@@ -75,6 +75,7 @@ const openDialog = (dinoData) => {
   dinosaur.value = dinoData;
   baseDialog.value?.open();
 };
+
 const closeDialog = () => baseDialog.value?.close();
 
 defineExpose({
