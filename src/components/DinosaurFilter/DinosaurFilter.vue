@@ -1,5 +1,5 @@
 <template>
-  <div class="flex justify-between p-4 gap-4">
+  <div class="flex p-4 gap-4">
     <input
       id="dino-filter"
       type="search"
