@@ -6,28 +6,37 @@
   >
     <div class="grid grid-cols-2 gap-6">
       <div class="flex flex-col gap-6">
-        <div class="border-2 border-amber-100 w-full aspect-square relative">
-          <img :src="dinosaur.imageUrl" :alt="dinosaur.name" class="absolute top-0 left-0 w-full h-full" />
+        <div class="border-2 w-full aspect-square relative" :style="{ borderColor }">
+          <img
+            :src="dinosaur.imageUrl"
+            :alt="dinosaur.name"
+            class="absolute top-0 left-0 w-full h-full"
+            crossorigin="anonymous"
+            ref="imgEl"
+          />
         </div>
-        <div class="border-2 border-amber-800 p-2">
+
+        <div class="border-2 p-2" :style="{ borderColor }">
           <p class="text-sm">{{ dinosaur.description }}</p>
         </div>
       </div>
 
       <div class="flex flex-col gap-3">
-        <div class="border-2 border-amber-800 p-2">
+        <div class="border-2 p-2" :style="{ borderColor }">
           <p><strong>Type:</strong> {{ dinosaur.type }}</p>
         </div>
-        <div class="border-2 border-amber-800 p-2">
+
+        <div class="border-2 p-2" :style="{ borderColor }">
           <p><strong>Diet:</strong> {{ dinosaur.diet }}</p>
         </div>
 
-        <div v-if="dinosaur.favorites?.length" class="border-2 border-amber-800 p-2">
+        <div v-if="dinosaur.favorites?.length" class="border-2 p-2" :style="{ borderColor }">
           <p class="font-bold">Favorites:</p>
           <div class="flex flex-wrap gap-2">
             <div
               v-for="favoriteItem in dinosaur.favorites"
-              class="border-2 border-amber-800 h-12 flex items-center justify-center p-2"
+              class="border-2 h-12 flex items-center justify-center p-2"
+              :style="{ borderColor }"
               :title="favoriteItem.text"
               :key="favoriteItem.text"
             >
@@ -36,12 +45,13 @@
           </div>
         </div>
 
-        <div v-if="dinosaur.dislikes?.length" class="border-2 border-amber-800 p-2">
+        <div v-if="dinosaur.dislikes?.length" class="border-2 p-2" :style="{ borderColor }">
           <p class="font-bold">Dislikes:</p>
           <div class="flex flex-wrap gap-2">
             <div
               v-for="dislikeItem in dinosaur.dislikes"
-              class="border-2 border-amber-800 h-12 flex items-center justify-center p-2"
+              class="border-2 h-12 flex items-center justify-center p-2"
+              :style="{ borderColor }"
               :title="dislikeItem.text"
               :key="dislikeItem.text"
             >
@@ -57,7 +67,8 @@
 <script setup lang="ts">
 import BaseDialog from '@/components/BaseDialog/BaseDialog.vue';
 import type { Dinosaur } from '@/types/dinosaur';
-import { useTemplateRef, ref } from 'vue';
+import { useTemplateRef, ref, watch } from 'vue';
+import ColorThief from 'colorthief';
 
 const baseDialog = useTemplateRef('baseDialog');
 const dinosaur = ref<Dinosaur>({
@@ -71,7 +82,29 @@ const dinosaur = ref<Dinosaur>({
   dislikes: [],
 });
 
-const openDialog = (dinoData) => {
+const borderColor = ref('#fef3c7');
+
+const imgEl = ref<HTMLImageElement | null>(null);
+
+watch(
+  () => dinosaur.value.imageUrl,
+  () => {
+    if (imgEl.value) {
+      imgEl.value.addEventListener('load', () => {
+        try {
+          const colorThief = new ColorThief();
+          const [r, g, b] = colorThief.getColor(imgEl.value!);
+
+          borderColor.value = `rgb(${r}, ${g}, ${b})`;
+        } catch (e) {
+          console.warn(`Couldn't extract the color`, e);
+        }
+      });
+    }
+  },
+);
+
+const openDialog = (dinoData: Dinosaur) => {
   dinosaur.value = dinoData;
   baseDialog.value?.open();
 };
