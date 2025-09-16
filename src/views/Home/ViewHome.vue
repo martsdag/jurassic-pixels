@@ -6,13 +6,13 @@
 
     <div class="fixed bottom-4 right-6 z-50">
       <BaseTooltip tooltip="Open random dinosaur" position="left">
-        <BaseButton class="button--sky" @click="onClickOpenRandomDino()">
+        <BaseButton class="button--sky" aria-label="Open random dinosaur" @click="onClickOpenRandomDino()">
           <BaseIcon :path="mdiHelpBox" class="w-6 h-6 md:w-8 md:h-8" />
         </BaseButton>
       </BaseTooltip>
     </div>
 
-    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 xl:grid-cols-6 gap-5 p-5">
+    <div class="grid grid-cols-[repeat(auto-fit,minmax(14rem,1fr))] gap-5 p-5">
       <DinosaurCard
         v-for="dinosaur in filteredDinosaurs"
         :dinosaur
@@ -20,8 +20,8 @@
         :key="dinosaur.id"
         @click="openDinosaurInfoModal(dinosaur)"
       />
-      <DinosaurInfoModal ref="dinosaurInfoModal" />
     </div>
+    <DinosaurInfoModal ref="dinosaurInfoModal" />
   </BasePage>
 </template>
 
