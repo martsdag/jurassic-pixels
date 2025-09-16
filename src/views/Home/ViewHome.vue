@@ -1,6 +1,6 @@
 <template>
   <BasePage>
-    <div class="mt-16 mx-16 mb-0 bg-sky-50/60 border-2 border-sky-400 rounded-2xl">
+    <div class="mt-16 mx-4 md:mx-16 mb-0 bg-sky-50/60 border-2 border-sky-400 rounded-2xl">
       <DinosaurFilter v-model="filter.filterText" />
     </div>
 
