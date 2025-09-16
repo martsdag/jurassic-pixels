@@ -8,20 +8,13 @@
       autocomplete="off"
       enterkeyhint="search"
       class="p-2 border border-sky-300 rounded w-full"
+      autocapitalize="none"
+      spellcheck="false"
       v-model="model"
-      @keydown.enter.prevent="emitUpdate"
     />
   </div>
 </template>
 
 <script setup lang="ts">
 const model = defineModel<string>({ default: '' });
-
-const emit = defineEmits<{
-  (e: 'update:modelValue', value: string): void;
-}>();
-
-const emitUpdate = () => {
-  emit('update:modelValue', model.value);
-};
 </script>
