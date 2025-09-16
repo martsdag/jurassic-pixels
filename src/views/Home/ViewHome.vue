@@ -7,12 +7,12 @@
     <div class="fixed bottom-4 right-6 z-50">
       <BaseTooltip tooltip="Open random dinosaur" position="left">
         <BaseButton class="button--sky" @click="onClickOpenRandomDino()">
-          <BaseIcon :path="mdiHelpBox" class="w-8 h-8" />
+          <BaseIcon :path="mdiHelpBox" class="w-6 h-6 md:w-8 md:h-8" />
         </BaseButton>
       </BaseTooltip>
     </div>
 
-    <div class="grid grid-cols-6 gap-5 p-5">
+    <div class="mt-4 mx-4 md:mt-6 md:mx-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-5 p-5">
       <DinosaurCard
         v-for="dinosaur in filteredDinosaurs"
         :dinosaur
