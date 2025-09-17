@@ -51,7 +51,7 @@ const filter = reactive({
 const filteredDinosaurs = computed(() => {
   const filterText = filter.filterText.toLowerCase().trim();
 
-  let result = dinosaurs.value;
+  let result = [...dinosaurs.value];
 
   if (filterText) {
     result = result.filter((dino: Dinosaur) => dino.name.toLowerCase().includes(filterText));

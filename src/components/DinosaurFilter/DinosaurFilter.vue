@@ -14,6 +14,7 @@
     />
     <select
       class="p-2 border border-sky-300 rounded focus:outline-none focus:ring-1 focus:ring-sky-500"
+      aria-label="Sort dinosaurs"
       v-model="model.sortBy"
     >
       <option value="name">By name</option>
