@@ -1,7 +1,7 @@
 <template>
   <BasePage>
     <div class="mt-16 mx-4 md:mx-16 mb-0 bg-sky-50/60 border-2 border-sky-400 rounded-2xl">
-      <DinosaurFilter v-model="filter.filterText" />
+      <DinosaurFilter v-model="filter" />
     </div>
 
     <div class="fixed bottom-4 right-6 z-50">
@@ -45,16 +45,33 @@ const dinosaurInfoModal = ref<InstanceType<typeof DinosaurInfoModal> | null>(nul
 
 const filter = reactive({
   filterText: '',
+  sortBy: 'name',
 });
 
 const filteredDinosaurs = computed(() => {
   const filterText = filter.filterText.toLowerCase().trim();
 
-  if (!filterText) {
-    return dinosaurs.value;
+  let result = dinosaurs.value;
+
+  if (filterText) {
+    result = result.filter((dino: Dinosaur) => dino.name.toLowerCase().includes(filterText));
   }
 
-  return dinosaurs.value.filter((dino: Dinosaur) => dino.name.toLowerCase().includes(filterText));
+  result.sort((a, b) => {
+    const aValue = a[filter.sortBy as keyof Dinosaur];
+    const bValue = b[filter.sortBy as keyof Dinosaur];
+
+    if (aValue < bValue) {
+      return -1;
+    }
+    if (aValue > bValue) {
+      return 1;
+    }
+
+    return 0;
+  });
+
+  return result;
 });
 
 const openDinosaurInfoModal = (dinosaur: Dinosaur) => {
