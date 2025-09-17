@@ -10,7 +10,7 @@
           <img
             :src="dinosaur.imageUrl"
             :alt="dinosaur.name"
-            class="absolute top-0 left-0 w-full h-full"
+            class="absolute top-0 left-0 w-full h-full object-contain"
             crossorigin="anonymous"
             ref="imgEl"
           />
@@ -38,6 +38,7 @@
               class="border-2 h-12 flex items-center justify-center p-2"
               :style="{ borderColor }"
               :title="favoriteItem.text"
+              decoding="async"
               :key="favoriteItem.text"
             >
               <span class="text-xl">{{ favoriteItem.emoji }}</span>
