@@ -64,6 +64,10 @@ const openDinosaurInfoModal = (dinosaur: Dinosaur) => {
 const onClickOpenRandomDino = () => {
   const randomDino = getRandomDino();
 
+  if (!randomDino) {
+    return;
+  }
+
   dinosaurInfoModal.value?.openDialog(randomDino);
 };
 </script>
