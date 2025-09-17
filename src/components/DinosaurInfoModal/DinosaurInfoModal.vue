@@ -102,13 +102,14 @@ const shadowColor = ref('none');
 
 const imgEl = ref<HTMLImageElement | null>(null);
 
+const colorThief = new ColorThief();
+
 const onImgLoad = () => {
   if (!imgEl.value) {
     return;
   }
 
   try {
-    const colorThief = new ColorThief();
     const [r, g, b] = colorThief.getColor(imgEl.value);
 
     borderColor.value = `rgb(${r}, ${g}, ${b})`;
