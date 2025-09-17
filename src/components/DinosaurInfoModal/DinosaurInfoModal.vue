@@ -10,9 +10,12 @@
           <img
             :src="dinosaur.imageUrl"
             :alt="dinosaur.name"
+            decoding="async"
             class="absolute top-0 left-0 w-full h-full object-contain"
             crossorigin="anonymous"
             ref="imgEl"
+            @load="onImgLoad"
+            @error="onImgError"
           />
         </div>
 
@@ -37,8 +40,9 @@
               v-for="favoriteItem in dinosaur.favorites"
               class="border-2 h-12 flex items-center justify-center p-2"
               :style="{ borderColor }"
+              role="img"
+              :aria-label="favoriteItem.text"
               :title="favoriteItem.text"
-              decoding="async"
               :key="favoriteItem.text"
             >
               <span class="text-xl">{{ favoriteItem.emoji }}</span>
@@ -54,6 +58,8 @@
               class="border-2 h-12 flex items-center justify-center p-2"
               :style="{ borderColor }"
               :title="dislikeItem.text"
+              role="img"
+              :aria-label="dislikeItem.text"
               :key="dislikeItem.text"
             >
               <span class="text-xl">{{ dislikeItem.emoji }}</span>
@@ -68,7 +74,7 @@
 <script setup lang="ts">
 import BaseDialog from '@/components/BaseDialog/BaseDialog.vue';
 import type { Dinosaur } from '@/types/dinosaur';
-import { useTemplateRef, ref, watch } from 'vue';
+import { useTemplateRef, ref } from 'vue';
 import ColorThief from 'colorthief';
 
 const baseDialog = useTemplateRef('baseDialog');
@@ -87,23 +93,25 @@ const borderColor = ref('#fef3c7');
 
 const imgEl = ref<HTMLImageElement | null>(null);
 
-watch(
-  () => dinosaur.value.imageUrl,
-  () => {
-    if (imgEl.value) {
-      imgEl.value.addEventListener('load', () => {
-        try {
-          const colorThief = new ColorThief();
-          const [r, g, b] = colorThief.getColor(imgEl.value!);
+const onImgLoad = () => {
+  if (!imgEl.value) {
+    return;
+  }
 
-          borderColor.value = `rgb(${r}, ${g}, ${b})`;
-        } catch (e) {
-          console.warn(`Couldn't extract the color`, e);
-        }
-      });
-    }
-  },
-);
+  try {
+    const colorThief = new ColorThief();
+    const [r, g, b] = colorThief.getColor(imgEl.value);
+
+    borderColor.value = `rgb(${r}, ${g}, ${b})`;
+  } catch (e) {
+    console.warn("Couldn't extract the color", e);
+    borderColor.value = '#fef3c7';
+  }
+};
+
+const onImgError = () => {
+  borderColor.value = '#fef3c7';
+};
 
 const openDialog = (dinoData: Dinosaur) => {
   dinosaur.value = dinoData;
