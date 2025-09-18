@@ -86,6 +86,7 @@ import { useTemplateRef, ref } from 'vue';
 import ColorThief from 'colorthief';
 
 const baseDialog = useTemplateRef('baseDialog');
+
 const dinosaur = ref<Dinosaur>({
   id: 0,
   name: '',
@@ -93,6 +94,8 @@ const dinosaur = ref<Dinosaur>({
   description: '',
   type: '',
   diet: '',
+  location: [],
+  coordinates: { lat: 0, lng: 0 },
   favorites: [],
   dislikes: [],
 });

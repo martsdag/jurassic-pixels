@@ -9,6 +9,7 @@ export enum LayoutName {
 
 export enum RouteName {
   Home = 'Home',
+  DinosaurMapPage = 'DinosaurMapPage',
   Page404 = 'Page404',
 }
 
@@ -19,6 +20,12 @@ export const router = createRouter({
       name: RouteName.Home,
       path: '/',
       component: () => import('@/views/Home'),
+      meta: { layout: LayoutName.Default },
+    },
+    {
+      name: RouteName.DinosaurMapPage,
+      path: '/dinomap',
+      component: () => import('@/views/DinosaurMapPage'),
       meta: { layout: LayoutName.Default },
     },
     {

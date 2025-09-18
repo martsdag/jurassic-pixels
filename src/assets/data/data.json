@@ -6,6 +6,8 @@
     "description": "A herbivorous dinosaur known for the plates on its back and spikes on its tail. Its name means 'roof lizard'.",
     "type": "Herbivore",
     "diet": "Ferns and conifers",
+    "location": ["North America"],
+    "coordinates": { "lat": 39.1130, "lng": -105.3589 },
     "favorites": [
       { "text": "Sunlight", "emoji": "☀️" },
       { "text": "Calm environment", "emoji": "😌" }
@@ -22,6 +24,8 @@
     "description": "One of the longest dinosaurs with a very long tail that could be used like a whip.",
     "type": "Herbivore",
     "diet": "Soft vegetation",
+    "location": ["North America"],
+    "coordinates": { "lat": 43.0759, "lng": -107.2903 },
     "favorites": [
       { "text": "Tall trees", "emoji": "🌳" },
       { "text": "Water bodies", "emoji": "💧" }
@@ -38,6 +42,8 @@
     "description": "A large bipedal predator with powerful jaws and small crests above its eyes.",
     "type": "Carnivore",
     "diet": "Large herbivores",
+    "location": ["North America"],
+    "coordinates": { "lat": 39.3210, "lng": -111.0937 },
     "favorites": [
       { "text": "Meat", "emoji": "🍖" },
       { "text": "Pack hunting", "emoji": "🤝" }
@@ -54,6 +60,8 @@
     "description": "One of the tallest dinosaurs. Its front legs were longer than the back legs, allowing it to reach tall trees.",
     "type": "Herbivore",
     "diet": "Leaves and cones",
+    "location": ["North America"],
+    "coordinates": { "lat": 39.1130, "lng": -105.3589 },
     "favorites": [
       { "text": "Long neck", "emoji": "🦒" },
       { "text": "Juicy foliage", "emoji": "🌿" }
@@ -70,6 +78,8 @@
     "description": "A predator known for its two semicircular crests on the skull. It was possibly capable of spitting venom.",
     "type": "Carnivore",
     "diet": "Small and medium prey",
+    "location": ["North America"],
+    "coordinates": { "lat": 36.9980, "lng": -112.0930 },
     "favorites": [
       { "text": "Ambush attacks", "emoji": "👻" },
       { "text": "Bright crests", "emoji": "✨" }
@@ -86,6 +96,8 @@
     "description": "One of the smallest dinosaurs, about the size of a chicken. It fed on insects and small lizards.",
     "type": "Carnivore",
     "diet": "Insects",
+    "location": ["Europe"],
+    "coordinates": { "lat": 48.7904, "lng": 11.4979 },
     "favorites": [
       { "text": "Hiding in grass", "emoji": "🌾" },
       { "text": "Fast running", "emoji": "💨" }
@@ -102,6 +114,8 @@
     "description": "A huge long-necked dinosaur that fed on plants. Often depicted with its neck held high.",
     "type": "Herbivore",
     "diet": "Tree leaves",
+    "location": ["North America"],
+    "coordinates": { "lat": 43.0759, "lng": -107.2903 },
     "favorites": [
       { "text": "Bathing", "emoji": "🛀" },
       { "text": "Tall trees", "emoji": "🌳" }
@@ -118,6 +132,8 @@
     "description": "A transitional form between dinosaurs and birds, it had feathers but also teeth and a long tail.",
     "type": "Omnivore",
     "diet": "Insects and small animals",
+    "location": ["Europe"],
+    "coordinates": { "lat": 48.7904, "lng": 11.4979 },
     "favorites": [
       { "text": "Flying", "emoji": "🕊️" },
       { "text": "Tree branches", "emoji": "🌳" }
@@ -134,6 +150,8 @@
     "description": "One of the first described dinosaurs, a large predator that shaped many early ideas of dinosaurs.",
     "type": "Carnivore",
     "diet": "Other dinosaurs",
+    "location": ["Europe"],
+    "coordinates": { "lat": 51.8156, "lng": -1.2820 },
     "favorites": [
       { "text": "Large prey", "emoji": "🍖" },
       { "text": "Sunbathing", "emoji": "☀️" }
@@ -150,6 +168,8 @@
     "description": "A huge herbivorous dinosaur with a long neck and tail. Its name means 'deceptive lizard'.",
     "type": "Herbivore",
     "diet": "Plants",
+    "location": ["North America"],
+    "coordinates": { "lat": 39.1130, "lng": -105.3589 },
     "favorites": [
       { "text": "Peaceful lifestyle", "emoji": "🧘" },
       { "text": "Swampy forests", "emoji": "🌿" }
@@ -166,6 +186,8 @@
     "description": "A large sauropod with a long neck, a herbivore that lived in what is now North America.",
     "type": "Herbivore",
     "diet": "Tree foliage",
+    "location": ["North America"],
+    "coordinates": { "lat": 31.0000, "lng": -97.0000 },
     "favorites": [
       { "text": "Roaming plains", "emoji": "🏞️" },
       { "text": "Pastures", "emoji": "🌱" }
@@ -182,6 +204,8 @@
     "description": "A herbivorous dinosaur known for its three facial horns and a bony frill protecting its neck.",
     "type": "Herbivore",
     "diet": "Low-growing plants",
+    "location": ["North America"],
+    "coordinates": { "lat": 46.8797, "lng": -110.3626 },
     "favorites": [
       { "text": "Strong horns", "emoji": "💪" },
       { "text": "Rivalry", "emoji": "🥊" }
@@ -198,6 +222,8 @@
     "description": "The 'king of the tyrant lizards,' a large carnivorous dinosaur with a massive skull and powerful jaws.",
     "type": "Carnivore",
     "diet": "Large herbivores",
+    "location": ["North America"],
+    "coordinates": { "lat": 46.8797, "lng": -110.3626 },
     "favorites": [
       { "text": "Roaring", "emoji": "🔊" },
       { "text": "T-Rex hunting", "emoji": "🍖" }
@@ -214,6 +240,8 @@
     "description": "A small but cunning predator with a large claw on each hindfoot. It was a fast runner.",
     "type": "Carnivore",
     "diet": "Small animals",
+    "location": ["Asia"],
+    "coordinates": { "lat": 42.5000, "lng": 104.5000 },
     "favorites": [
       { "text": "Hunting in packs", "emoji": "👥" },
       { "text": "Solving puzzles", "emoji": "🧠" }
@@ -230,6 +258,8 @@
     "description": "A large herbivore known for its extensive body armor and a massive club-like tail.",
     "type": "Herbivore",
     "diet": "Low-growing plants",
+    "location": ["North America"],
+    "coordinates": { "lat": 53.9333, "lng": -116.5765 },
     "favorites": [
       { "text": "Swinging its tail", "emoji": "🏏" },
       { "text": "Being a tank", "emoji": "🛡️" }
@@ -246,6 +276,8 @@
     "description": "A crested herbivore with a hollow tube on its head, possibly used for making sounds.",
     "type": "Herbivore",
     "diet": "Leaves and fruits",
+    "location": ["North America"],
+    "coordinates": { "lat": 53.9333, "lng": -116.5765 },
     "favorites": [
       { "text": "Making music", "emoji": "🎵" },
       { "text": "Being in a herd", "emoji": " 🐾" }
@@ -262,6 +294,8 @@
     "description": "A flying reptile, not technically a dinosaur, known for its long, beak-like jaws and large wings.",
     "type": "Carnivore",
     "diet": "Fish and small animals",
+    "location": ["Europe"],
+    "coordinates": { "lat": 48.7784, "lng": 10.8977 },
     "favorites": [
       { "text": "Flying high", "emoji": "🦅" },
       { "text": "Eating seafood", "emoji": "🦐" }
@@ -278,6 +312,8 @@
     "description": "A large carnivorous dinosaur with a distinctive sail on its back. It lived both on land and in water.",
     "type": "Carnivore",
     "diet": "Fish and other dinosaurs",
+    "location": ["Africa"],
+    "coordinates": { "lat": 24.0000, "lng": 34.0000 },
     "favorites": [
       { "text": "Swimming", "emoji": "🏊" },
       { "text": "Fishing", "emoji": "🎣" }
@@ -294,6 +330,8 @@
     "description": "A large herbivore with a unique thumb spike. It could walk on two or four legs.",
     "type": "Herbivore",
     "diet": "Plants",
+    "location": ["Europe"],
+    "coordinates": { "lat": 50.8503, "lng": 4.3517 },
     "favorites": [
       { "text": "Spikes", "emoji": "🔪" },
       { "text": "Walking on two legs", "emoji": "🚶" }
@@ -310,6 +348,8 @@
     "description": "A herbivore known for its thick, domed skull, used for head-butting during fights.",
     "type": "Herbivore",
     "diet": "Leaves and seeds",
+    "location": ["North America"],
+    "coordinates": { "lat": 46.8797, "lng": -110.3626 },
     "favorites": [
       { "text": "Head-butting", "emoji": "🤯" },
       { "text": "Showing off", "emoji": "🤩" }
@@ -326,6 +366,8 @@
     "description": "A small, fast predator with one of the largest brains for its body size among dinosaurs.",
     "type": "Carnivore",
     "diet": "Small animals",
+    "location": ["North America"],
+    "coordinates": { "lat": 51.0000, "lng": -115.0000 },
     "favorites": [
       { "text": "Problem solving", "emoji": "🧠" },
       { "text": "Hunting at night", "emoji": "🌙" }
@@ -342,6 +384,8 @@
     "description": "A large herbivore, often called 'duck-billed dinosaur' for its wide, flat snout.",
     "type": "Herbivore",
     "diet": "Plants",
+    "location": ["North America"],
+    "coordinates": { "lat": 46.8797, "lng": -110.3626 },
     "favorites": [
       { "text": "Eating in groups", "emoji": "👥" },
       { "text": "Water plants", "emoji": "🌿" }
@@ -358,6 +402,8 @@
     "description": "A small, feathered dinosaur originally thought to steal eggs, though it likely protected them.",
     "type": "Omnivore",
     "diet": "Eggs, plants, insects",
+    "location": ["Asia"],
+    "coordinates": { "lat": 42.0000, "lng": 107.0000 },
     "favorites": [
       { "text": "Nesting", "emoji": "🥚" },
       { "text": "Small snacks", "emoji": "🍪" }
@@ -374,6 +420,8 @@
     "description": "A large flying reptile with a distinctive crest and no teeth. It was a powerful glider.",
     "type": "Carnivore",
     "diet": "Fish",
+    "location": ["North America"],
+    "coordinates": { "lat": 41.0000, "lng": -74.0000 },
     "favorites": [
       { "text": "Gliding", "emoji": "🌬️" },
       { "text": "Soaring over water", "emoji": "🌊" }
@@ -390,6 +438,8 @@
     "description": "One of the largest known meat-eating dinosaurs, even larger than a T. Rex.",
     "type": "Carnivore",
     "diet": "Large sauropods",
+    "location": ["South America"],
+    "coordinates": { "lat": -34.0000, "lng": -69.0000 },
     "favorites": [
       { "text": "Dominance", "emoji": "👑" },
       { "text": "Hunting alone", "emoji": "🐺" }
@@ -406,6 +456,8 @@
     "description": "A massive sauropod, possibly the heaviest land animal of all time, with a very long neck and tail.",
     "type": "Herbivore",
     "diet": "Leaves from tall trees",
+    "location": ["South America"],
+    "coordinates": { "lat": -35.0000, "lng": -64.0000 },
     "favorites": [
       { "text": "Being the largest", "emoji": "🏆" },
       { "text": "Eating all day", "emoji": "😋" }
@@ -422,6 +474,8 @@
     "description": "A duck-billed dinosaur known for its parental care. Its name means 'good mother lizard.'",
     "type": "Herbivore",
     "diet": "Plants",
+    "location": ["North America"],
+    "coordinates": { "lat": 46.8797, "lng": -110.3626 },
     "favorites": [
       { "text": "Raising children", "emoji": "👨‍👩‍👧‍👦" },
       { "text": "Nesting colonies", "emoji": "🏘️" }
@@ -438,6 +492,8 @@
     "description": "A fish-eating dinosaur with a large, hook-like claw on its thumb. Its name means 'heavy claw.'",
     "type": "Carnivore",
     "diet": "Fish",
+    "location": ["Europe"],
+    "coordinates": { "lat": 51.0000, "lng": 0.0000 },
     "favorites": [
       { "text": "Fishing", "emoji": "🎣" },
       { "text": "Riverside life", "emoji": "🏞️" }
@@ -454,6 +510,8 @@
     "description": "A fast predator with two distinctive horns over its eyes. Its name means 'meat-eating bull'.",
     "type": "Carnivore",
     "diet": "Small and medium prey",
+    "location": ["South America"],
+    "coordinates": { "lat": -35.0000, "lng": -64.0000 },
     "favorites": [
       { "text": "Speed", "emoji": "⚡" },
       { "text": "Head horns", "emoji": "🤘" }
@@ -470,6 +528,8 @@
     "description": "A smaller relative of Stegosaurus with long spikes on its tail and shoulders.",
     "type": "Herbivore",
     "diet": "Low-lying plants",
+    "location": ["Africa"],
+    "coordinates": { "lat": -10.0000, "lng": 34.0000 },
     "favorites": [
       { "text": "Staying safe", "emoji": "🛡️" },
       { "text": "Spikes", "emoji": "🔪" }
@@ -486,6 +546,8 @@
     "description": "A duck-billed dinosaur with a tall, helmet-like crest on its head, possibly used for communication.",
     "type": "Herbivore",
     "diet": "Soft plants",
+    "location": ["North America"],
+    "coordinates": { "lat": 51.0000, "lng": -115.0000 },
     "favorites": [
       { "text": "Singing", "emoji": "🎤" },
       { "text": "Herd life", "emoji": "👥" }
@@ -502,6 +564,8 @@
     "description": "A large herbivore that lived in North America. It had a flat, duck-like bill and was a herd animal.",
     "type": "Herbivore",
     "diet": "Pine needles and leaves",
+    "location": ["North America"],
+    "coordinates": { "lat": 53.0000, "lng": -115.0000 },
     "favorites": [
       { "text": "Being in a herd", "emoji": "👥" },
       { "text": "Peaceful grazing", "emoji": "😌" }
@@ -518,6 +582,8 @@
     "description": "A small, feathered tyrannosaur from China. Its name means 'emperor dragon'.",
     "type": "Carnivore",
     "diet": "Small animals",
+    "location": ["Asia"],
+    "coordinates": { "lat": 42.0000, "lng": 107.0000 },
     "favorites": [
       { "text": "Feathers", "emoji": "🪶" },
       { "text": "Quick movements", "emoji": "💨" }
@@ -534,6 +600,8 @@
     "description": "A large dinosaur known for its massive claws, possibly used for reaching vegetation.",
     "type": "Herbivore",
     "diet": "Leaves and plants",
+    "location": ["Asia"],
+    "coordinates": { "lat": 42.0000, "lng": 107.0000 },
     "favorites": [
       { "text": "Long claws", "emoji": "🔪" },
       { "text": "Grabbing food", "emoji": "🤏" }
@@ -550,6 +618,8 @@
     "description": "A large carnivorous dinosaur that hunted in groups. Its name means 'Earth lizard'.",
     "type": "Carnivore",
     "diet": "Large herbivores",
+    "location": ["South America"],
+    "coordinates": { "lat": -35.0000, "lng": -69.0000 },
     "favorites": [
       { "text": "Teamwork", "emoji": "👥" },
       { "text": "Hunting", "emoji": "🍖" }
@@ -566,6 +636,8 @@
     "description": "A crested predator from Antarctica. Its name means 'frozen crested lizard'.",
     "type": "Carnivore",
     "diet": "Small animals",
+    "location": ["Antarctica"],
+    "coordinates": { "lat": -76.0000, "lng": 160.0000 },
     "favorites": [
       { "text": "Antarctic weather", "emoji": "❄️" },
       { "text": "Crest", "emoji": "👑" }
@@ -582,6 +654,8 @@
     "description": "A raptor known for its 'terrible claw' and intelligence. It was a pack hunter.",
     "type": "Carnivore",
     "diet": "Other dinosaurs",
+    "location": ["North America"],
+    "coordinates": { "lat": 36.5000, "lng": -84.5000 },
     "favorites": [
       { "text": "Sharp claws", "emoji": "🔪" },
       { "text": "Hunting in packs", "emoji": "👥" }
@@ -598,6 +672,8 @@
     "description": "A large predator with 'shark-toothed' jaws. It was one of the largest carnivores.",
     "type": "Carnivore",
     "diet": "Large herbivores",
+    "location": ["Africa"],
+    "coordinates": { "lat": 23.0000, "lng": 29.0000 },
     "favorites": [
       { "text": "Sharp teeth", "emoji": "🦈" },
       { "text": "Big meals", "emoji": "🍖" }
@@ -614,6 +690,8 @@
     "description": "The largest of the raptors, with a massive killing claw. It was a formidable predator.",
     "type": "Carnivore",
     "diet": "Large prey",
+    "location": ["North America"],
+    "coordinates": { "lat": 39.5000, "lng": -111.5000 },
     "favorites": [
       { "text": "Size", "emoji": "💪" },
       { "text": "Intimidation", "emoji": "😠" }
@@ -630,6 +708,8 @@
     "description": "A small, feathered raptor from China, possibly venomous, known for its bird-like features.",
     "type": "Carnivore",
     "diet": "Small animals",
+    "location": ["Asia"],
+    "coordinates": { "lat": 42.0000, "lng": 107.0000 },
     "favorites": [
       { "text": "Feathers", "emoji": "🪶" },
       { "text": "Venom", "emoji": "🐍" }
@@ -646,6 +726,8 @@
     "description": "A strange-looking theropod with a small head, long neck, and huge claws, likely a herbivore.",
     "type": "Herbivore",
     "diet": "Plants",
+    "location": ["North America"],
+    "coordinates": { "lat": 36.0000, "lng": -106.0000 },
     "favorites": [
       { "text": "Long neck", "emoji": "🦒" },
       { "text": "Massive claws", "emoji": "🔪" }
@@ -662,6 +744,8 @@
     "description": "One of the first large herbivores, a long-necked dinosaur that could walk on two or four legs.",
     "type": "Herbivore",
     "diet": "Plants",
+    "location": ["Europe"],
+    "coordinates": { "lat": 47.0000, "lng": 9.0000 },
     "favorites": [
       { "text": "Two-legged walk", "emoji": "🚶" },
       { "text": "Plant-based diet", "emoji": "🌿" }
@@ -678,6 +762,8 @@
     "description": "A fish-eating dinosaur with a crocodile-like snout and a sail on its back.",
     "type": "Carnivore",
     "diet": "Fish and other animals",
+    "location": ["Africa"],
+    "coordinates": { "lat": 8.0000, "lng": 13.0000 },
     "favorites": [
       { "text": "Fishing", "emoji": "🎣" },
       { "text": "Riverside life", "emoji": "🏞️" }
@@ -694,6 +780,8 @@
     "description": "A duck-billed dinosaur with a tall, prominent sail on its back, likely for thermoregulation.",
     "type": "Herbivore",
     "diet": "Leaves and fruits",
+    "location": ["Africa"],
+    "coordinates": { "lat": 15.0000, "lng": 3.0000 },
     "favorites": [
       { "text": "Being unique", "emoji": "✨" },
       { "text": "Sunny days", "emoji": "☀️" }
@@ -710,6 +798,8 @@
     "description": "A small, fast-moving predator that lived in the Triassic period. It was a lightweight dinosaur.",
     "type": "Carnivore",
     "diet": "Small animals and insects",
+    "location": ["North America"],
+    "coordinates": { "lat": 36.5000, "lng": -104.5000 },
     "favorites": [
       { "text": "Speed", "emoji": "⚡" },
       { "text": "Eating on the run", "emoji": "🏃💨" }
@@ -726,6 +816,8 @@
     "description": "A smaller relative of T. rex, a fast and powerful predator that hunted in packs.",
     "type": "Carnivore",
     "diet": "Other dinosaurs",
+    "location": ["North America"],
+    "coordinates": { "lat": 55.0000, "lng": -115.0000 },
     "favorites": [
       { "text": "Team hunting", "emoji": "👥" },
       { "text": "Being powerful", "emoji": "💪" }
@@ -742,6 +834,8 @@
     "description": "A large tyrannosaur with a powerful bite, living just before T. rex.",
     "type": "Carnivore",
     "diet": "Large herbivores",
+    "location": ["North America"],
+    "coordinates": { "lat": 55.0000, "lng": -115.0000 },
     "favorites": [
       { "text": "Strong jaws", "emoji": "😬" },
       { "text": "Dominating its territory", "emoji": "👑" }
@@ -758,6 +852,8 @@
     "description": "A large predator from Asia, a close relative of T. rex, known for its robust build.",
     "type": "Carnivore",
     "diet": "Large dinosaurs",
+    "location": ["Asia"],
+    "coordinates": { "lat": 42.0000, "lng": 112.0000 },
     "favorites": [
       { "text": "Being robust", "emoji": "💪" },
       { "text": "Sunbathing", "emoji": "☀️" }
@@ -774,6 +870,8 @@
     "description": "A large feathered tyrannosaur from China. Its name means 'feathered tyrant'.",
     "type": "Carnivore",
     "diet": "Large herbivores",
+    "location": ["Asia"],
+    "coordinates": { "lat": 42.0000, "lng": 122.0000 },
     "favorites": [
       { "text": "Feathers", "emoji": "🪶" },
       { "text": "Being unique", "emoji": "✨" }
@@ -790,6 +888,8 @@
     "description": "A small herbivore with a large neck frill. Often found in large herds.",
     "type": "Herbivore",
     "diet": "Low-growing plants",
+    "location": ["Asia"],
+    "coordinates": { "lat": 42.0000, "lng": 105.0000 },
     "favorites": [
       { "text": "Being in a herd", "emoji": "👥" },
       { "text": "Strong neck frill", "emoji": "🛡️" }
@@ -806,6 +906,8 @@
     "description": "A horned herbivore with a large nose horn and a curved frill. Lived in large herds.",
     "type": "Herbivore",
     "diet": "Low-growing plants",
+    "location": ["North America"],
+    "coordinates": { "lat": 51.0000, "lng": -110.0000 },
     "favorites": [
       { "text": "Impressive horns", "emoji": "🤘" },
       { "text": "Herd life", "emoji": "👥" }
@@ -822,6 +924,8 @@
     "description": "A large horned herbivore with a long nose horn and long spikes on its neck frill.",
     "type": "Herbivore",
     "diet": "Plants",
+    "location": ["North America"],
+    "coordinates": { "lat": 51.0000, "lng": -110.0000 },
     "favorites": [
       { "text": "Impressive horns", "emoji": "🤘" },
       { "text": "Protecting the herd", "emoji": "🛡️" }
@@ -838,6 +942,8 @@
     "description": "A large horned herbivore with a prominent, bony boss on its snout instead of a horn.",
     "type": "Herbivore",
     "diet": "Tough plants",
+    "location": ["North America"],
+    "coordinates": { "lat": 53.0000, "lng": -110.0000 },
     "favorites": [
       { "text": "Powerful boss", "emoji": "👊" },
       { "text": "Battering rivals", "emoji": "💥" }
@@ -854,6 +960,8 @@
     "description": "A heavily armored herbivore with a club-like tail and spikes on its body.",
     "type": "Herbivore",
     "diet": "Low-growing plants",
+    "location": ["North America"],
+    "coordinates": { "lat": 53.0000, "lng": -110.0000 },
     "favorites": [
       { "text": "Club-like tail", "emoji": "🏏" },
       { "text": "Being well-defended", "emoji": "🛡️" }
@@ -870,6 +978,8 @@
     "description": "An ankylosaur known for its large shoulder spikes and body armor.",
     "type": "Herbivore",
     "diet": "Low-growing plants",
+    "location": ["North America"],
+    "coordinates": { "lat": 40.0000, "lng": -109.0000 },
     "favorites": [
       { "text": "Spiky shoulders", "emoji": "🔪" },
       { "text": "Being intimidating", "emoji": "😠" }
@@ -886,6 +996,8 @@
     "description": "An armored dinosaur with a thick shield and long spikes on its neck and shoulders.",
     "type": "Herbivore",
     "diet": "Low-growing plants",
+    "location": ["North America"],
+    "coordinates": { "lat": 39.0000, "lng": -108.0000 },
     "favorites": [
       { "text": "Being a shield", "emoji": "🛡️" },
       { "text": "Walking slowly", "emoji": "🐢" }
@@ -902,6 +1014,8 @@
     "description": "A small, meat-eating dinosaur with forward-pointing teeth, possibly used for catching fish.",
     "type": "Carnivore",
     "diet": "Fish and small animals",
+    "location": ["Africa"],
+    "coordinates": { "lat": -16.0000, "lng": 46.0000 },
     "favorites": [
       { "text": "Fishing", "emoji": "🎣" },
       { "text": "Strange teeth", "emoji": "🦷" }
@@ -918,6 +1032,8 @@
     "description": "A medium-sized predator with a horn on its snout and bony ridges above its eyes.",
     "type": "Carnivore",
     "diet": "Other dinosaurs",
+    "location": ["North America"],
+    "coordinates": { "lat": 37.0000, "lng": -112.0000 },
     "favorites": [
       { "text": "Impressive horns", "emoji": "🤘" },
       { "text": "Being a solo hunter", "emoji": "🐺" }
@@ -934,6 +1050,8 @@
     "description": "A duck-billed dinosaur with a less-pronounced crest than others, an early relative of the Hadrosaurids.",
     "type": "Herbivore",
     "diet": "Tough plants",
+    "location": ["Asia"],
+    "coordinates": { "lat": 43.0000, "lng": 118.0000 },
     "favorites": [
       { "text": "Being in a herd", "emoji": "👥" },
       { "text": "Finding food", "emoji": "😋" }
@@ -950,6 +1068,8 @@
     "description": "A sauropod with a shorter neck and body armor, which was unusual for its kind.",
     "type": "Herbivore",
     "diet": "Plants",
+    "location": ["South America"],
+    "coordinates": { "lat": -27.0000, "lng": -65.0000 },
     "favorites": [
       { "text": "Body armor", "emoji": "🛡️" },
       { "text": "Being protected", "emoji": "🔒" }
@@ -966,6 +1086,8 @@
     "description": "Known as the 'Mesozoic cow', this sauropod had a broad, straight mouth with over 500 teeth.",
     "type": "Herbivore",
     "diet": "Low-lying plants",
+    "location": ["Africa"],
+    "coordinates": { "lat": 16.0000, "lng": 7.0000 },
     "favorites": [
       { "text": "Dental battery", "emoji": "🦷" },
       { "text": "Grassy plains", "emoji": "🌿" }
@@ -982,6 +1104,8 @@
     "description": "A very large ornithomimosaur with huge forelimbs and a sail on its back, likely an omnivore.",
     "type": "Omnivore",
     "diet": "Fish and plants",
+    "location": ["Asia"],
+    "coordinates": { "lat": 45.0000, "lng": 105.0000 },
     "favorites": [
       { "text": "Long arms", "emoji": "💪" },
       { "text": "Riverside food", "emoji": "🎣" }
@@ -998,6 +1122,8 @@
     "description": "A horned dinosaur from China with a unique, forward-curving frill.",
     "type": "Herbivore",
     "diet": "Low-growing plants",
+    "location": ["Asia"],
+    "coordinates": { "lat": 35.0000, "lng": 118.0000 },
     "favorites": [
       { "text": "Spiky frill", "emoji": "🛡️" },
       { "text": "Showing off", "emoji": "🤩" }
@@ -1014,6 +1140,8 @@
     "description": "A herbivore that served as a common prey for Deinonychus, known for its long, stiff tail.",
     "type": "Herbivore",
     "diet": "Ferns and conifers",
+    "location": ["North America"],
+    "coordinates": { "lat": 35.0000, "lng": -97.0000 },
     "favorites": [
       { "text": "Wagging my tail", "emoji": "💨" },
       { "text": "Eating in peace", "emoji": "😌" }
@@ -1030,6 +1158,8 @@
     "description": "A marine reptile with a very long neck and large flippers, a predator of the seas.",
     "type": "Carnivore",
     "diet": "Fish and squid",
+    "location": ["Europe"],
+    "coordinates": { "lat": 52.0000, "lng": -2.0000 },
     "favorites": [
       { "text": "Swimming", "emoji": "🏊" },
       { "text": "Ocean life", "emoji": "🌊" }
@@ -1046,6 +1176,8 @@
     "description": "A huge, marine reptile with a powerful tail and a row of sharp teeth. The 'T. rex of the sea'.",
     "type": "Carnivore",
     "diet": "Fish, sharks, and other marine reptiles",
+    "location": ["Europe"],
+    "coordinates": { "lat": 50.0000, "lng": 5.0000 },
     "favorites": [
       { "text": "Dominating the seas", "emoji": "👑" },
       { "text": "Big prey", "emoji": "🍖" }
@@ -1062,6 +1194,8 @@
     "description": "One of the largest known flying animals, a pterosaur with a long, thin beak.",
     "type": "Carnivore",
     "diet": "Small dinosaurs and fish",
+    "location": ["North America"],
+    "coordinates": { "lat": 30.0000, "lng": -100.0000 },
     "favorites": [
       { "text": "Flying high", "emoji": "🦅" },
       { "text": "Gliding", "emoji": "🌬️" }
@@ -1078,6 +1212,8 @@
     "description": "A modern alligator, a living example of a survivor from the dinosaur age.",
     "type": "Carnivore",
     "diet": "Fish, reptiles, mammals",
+    "location": ["North America"],
+    "coordinates": { "lat": 30.0000, "lng": -90.0000 },
     "favorites": [
       { "text": "Sunbathing", "emoji": "☀️" },
       { "text": "Ambush hunting", "emoji": "👻" }
@@ -1094,6 +1230,8 @@
     "description": "A huge, flightless, feathered dinosaur. It had a beak and no teeth.",
     "type": "Omnivore",
     "diet": "Eggs and plants",
+    "location": ["Asia"],
+    "coordinates": { "lat": 43.0000, "lng": 111.0000 },
     "favorites": [
       { "text": "Nesting", "emoji": "🥚" },
       { "text": "Feathers", "emoji": "🪶" }
