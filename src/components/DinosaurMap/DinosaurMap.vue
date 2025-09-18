@@ -1,8 +1,11 @@
 <template>
   <div class="h-[600px] w-full">
-    <VMap :zoom ref="map">
-      <VMapTileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-      <VMapMarker v-for="(item, index) in locations" :latlng="item.latLng" :key="index">
+    <VMap :zoom>
+      <VMapTileLayer
+        url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+        :attribution="'&copy; OpenStreetMap contributors'"
+      />
+      <VMapMarker v-for="item in locations" :latlng="item.latLng" :key="`${item.latLng[0]},${item.latLng[1]}`">
         <VMapDefaultIcon />
       </VMapMarker>
     </VMap>
@@ -21,20 +24,20 @@ const zoom = ref(2);
 const dinosaurs = ref<Dinosaur[]>(dinosaursData);
 
 const locations = computed(() => {
-  const map = new Map<string, { latLng: [number, number]; dinos: Dinosaur[]; locationName: string }>();
+  const locationsMap = new Map<string, { latLng: [number, number]; dinos: Dinosaur[]; locationName: string }>();
 
   dinosaurs.value.forEach((dino) => {
     if (dino.coordinates) {
       const { lat, lng } = dino.coordinates;
       const key = `${lat},${lng}`;
 
-      if (!map.has(key)) {
-        map.set(key, { latLng: [lat, lng], dinos: [], locationName: dino.location?.[0] || 'Unknown' });
+      if (!locationsMap.has(key)) {
+        locationsMap.set(key, { latLng: [lat, lng], dinos: [], locationName: dino.location?.[0] || 'Unknown' });
       }
-      map.get(key)!.dinos.push(dino);
+      locationsMap.get(key)!.dinos.push(dino);
     }
   });
 
-  return Array.from(map.values());
+  return Array.from(locationsMap.values());
 });
 </script>
