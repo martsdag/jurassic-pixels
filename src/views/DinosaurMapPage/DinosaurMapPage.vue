@@ -7,10 +7,7 @@
 </template>
 
 <script setup lang="ts">
-import 'leaflet/dist/leaflet.css';
-import 'vue-map-ui/dist/normalize.css';
-import 'vue-map-ui/dist/style.css';
-import 'vue-map-ui/dist/theme-all.css';
+import '@/assets/styles/map.css';
 import BasePage from '@/components/BasePage/BasePage.vue';
 import DinosaurMap from '@/components/DinosaurMap/DinosaurMap.vue';
 </script>
