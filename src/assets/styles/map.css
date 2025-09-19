@@ -1,0 +1,7 @@
+@tailwind utilities;
+
+@layer components {
+  @import 'vue-map-ui/dist/normalize.css';
+  @import 'vue-map-ui/dist/style.css';
+  @import 'vue-map-ui/dist/theme-all.css';
+}

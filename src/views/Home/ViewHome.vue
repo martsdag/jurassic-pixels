@@ -28,7 +28,7 @@
 <script setup lang="ts">
 import BasePage from '@/components/BasePage/BasePage.vue';
 import DinosaurCard from '@/components/DinosaurCard/DinosaurCard.vue';
-import { computed, reactive, ref } from 'vue';
+import { computed, ref } from 'vue';
 import dinosaursData from '@/assets/data/data.json';
 import DinosaurInfoModal from '@/components/DinosaurInfoModal/DinosaurInfoModal.vue';
 import BaseButton from '@/components/BaseButton/BaseButton.vue';
@@ -43,13 +43,13 @@ const dinosaurs = ref(dinosaursData);
 
 const dinosaurInfoModal = ref<InstanceType<typeof DinosaurInfoModal> | null>(null);
 
-const filter = reactive({
+const filter = ref({
   filterText: '',
   sortBy: 'name',
 });
 
 const filteredDinosaurs = computed(() => {
-  const filterText = filter.filterText.toLowerCase().trim();
+  const filterText = filter.value.filterText.toLowerCase().trim();
 
   let result = [...dinosaurs.value];
 
@@ -58,8 +58,8 @@ const filteredDinosaurs = computed(() => {
   }
 
   result.sort((a, b) => {
-    const aValue = a[filter.sortBy as keyof Dinosaur];
-    const bValue = b[filter.sortBy as keyof Dinosaur];
+    const aValue = a[filter.value.sortBy as keyof Dinosaur];
+    const bValue = b[filter.value.sortBy as keyof Dinosaur];
 
     if (aValue < bValue) {
       return -1;

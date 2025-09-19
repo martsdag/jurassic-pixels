@@ -17,9 +17,6 @@ export default defineConfig({
       png: {
         quality: 80,
       },
-      webp: false,
-      jpeg: false,
-      jpg: false,
     }),
   ],
   publicDir: 'public',
