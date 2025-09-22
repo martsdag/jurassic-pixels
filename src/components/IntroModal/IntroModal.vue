@@ -38,10 +38,6 @@ const closeDialog = () => {
   localStorage.setItem('introSeen', 'true');
 };
 
-if (!hasSeenIntro) {
-  openDialog();
-}
-
 const onClickViewDinosaurs = () => {
   closeDialog();
   router.push({ name: RouteName.Home });
