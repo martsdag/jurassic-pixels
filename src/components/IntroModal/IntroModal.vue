@@ -4,14 +4,20 @@
     :buttons="[{ id: 0, text: 'OK', class: 'button--amber', onClick: () => closeDialog() }]"
     ref="baseDialog"
   >
-    <p class="text-gray-700 mb-6">
-      JURASSIC PIXELS is an encyclopedia website where you can find all the information about dinosaurs and their
-      locations. Discover more about prehistoric giants and the places where their remains were found.
-    </p>
+    <div class="absolute inset-0 z-0 opacity-10">
+      <img src="/dinos/coelophysis.png" alt="Pixelated dinosaur background" class="w-full h-full object-cover" />
+    </div>
 
-    <div class="flex flex-col gap-4">
-      <BaseButton class="button--sky" @click="onClickViewDinosaurs">View Dinosaurs</BaseButton>
-      <BaseButton class="button--amber" @click="onClickViewMap">View Map</BaseButton>
+    <div class="relative z-10 p-4">
+      <p class="text-gray-700 mb-6">
+        JURASSIC PIXELS is an encyclopedia website where you can find all the information about dinosaurs and their
+        locations. Discover more about prehistoric giants and the places where their remains were found.
+      </p>
+
+      <div class="flex flex-col gap-4">
+        <BaseButton class="button--sky" @click="onClickViewDinosaurs">View Dinosaurs 🦕</BaseButton>
+        <BaseButton class="button--amber" @click="onClickViewMap">View Map 🗺️</BaseButton>
+      </div>
     </div>
   </BaseDialog>
 </template>
