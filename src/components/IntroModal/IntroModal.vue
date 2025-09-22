@@ -10,35 +10,56 @@
     </p>
 
     <div class="flex flex-col gap-4">
-      <RouterLink
-        :to="{ name: RouteName.Home }"
-        class="bg-sky-500 hover:bg-sky-600 text-white font-bold py-2 px-4 rounded-lg transition-colors"
-      >
-        View Dinosaurs
-      </RouterLink>
-      <RouterLink
-        :to="{ name: RouteName.DinosaurMapPage }"
-        class="bg-amber-500 hover:bg-amber-600 text-white font-bold py-2 px-4 rounded-lg transition-colors"
-      >
-        View Map
-      </RouterLink>
+      <BaseButton class="button--sky" @click="onClickViewDinosaurs">View Dinosaurs</BaseButton>
+      <BaseButton class="button--amber" @click="onClickViewMap">View Map</BaseButton>
     </div>
   </BaseDialog>
 </template>
 
 <script setup lang="ts">
-import { onMounted, useTemplateRef } from 'vue';
-import BaseDialog from '../BaseDialog/BaseDialog.vue';
-import { RouterLink } from 'vue-router';
 import { RouteName } from '@/router';
+import { nextTick, useTemplateRef } from 'vue';
+import { useRouter } from 'vue-router';
+import BaseDialog from '../BaseDialog/BaseDialog.vue';
+import BaseButton from '../BaseButton/BaseButton.vue';
 
 const baseDialog = useTemplateRef('baseDialog');
 
-const closeDialog = () => baseDialog.value?.close();
+const router = useRouter();
 
-const openDialog = () => baseDialog.value?.open();
+const hasSeenIntro = localStorage.getItem('introSeen');
 
-onMounted(() => {
+const openDialog = () => {
+  baseDialog.value?.open();
+};
+
+const closeDialog = () => {
+  baseDialog.value?.close();
+  localStorage.setItem('introSeen', 'true');
+};
+
+if (!hasSeenIntro) {
   openDialog();
+}
+
+const onClickViewDinosaurs = () => {
+  closeDialog();
+  router.push({ name: RouteName.Home });
+};
+
+const onClickViewMap = () => {
+  closeDialog();
+  router.push({ name: RouteName.DinosaurMapPage });
+};
+
+if (!hasSeenIntro) {
+  nextTick(() => {
+    openDialog();
+  });
+}
+
+defineExpose({
+  openDialog,
+  closeDialog,
 });
 </script>
