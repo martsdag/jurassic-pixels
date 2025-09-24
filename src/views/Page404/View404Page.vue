@@ -4,18 +4,7 @@
       class="relative flex flex-col items-center justify-center min-h-screen gap-6 text-center px-4 overflow-hidden"
       role="alert"
     >
-      <h1
-        class="relative z-10 text-9xl font-bold text-amber-200"
-        style="
-          text-shadow:
-            -3px -3px 0 #000,
-            3px -3px 0 #000,
-            -3px 3px 0 #000,
-            3px 3px 0 #000;
-        "
-      >
-        404
-      </h1>
+      <h1 class="relative z-10 text-9xl font-bold text-amber-200 error-heading">404</h1>
 
       <img
         src="/dinos/dinoNotFound.png"
@@ -44,3 +33,13 @@
 import { RouteName } from '@/router';
 import BasePage from '@/components/BasePage/BasePage.vue';
 </script>
+
+<style scoped>
+.error-heading {
+  text-shadow:
+    -3px -3px 0 #000,
+    3px -3px 0 #000,
+    -3px 3px 0 #000,
+    3px 3px 0 #000;
+}
+</style>
