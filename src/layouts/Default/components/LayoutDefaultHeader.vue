@@ -6,8 +6,8 @@
       <RouterLink
         v-for="link in links"
         :to="link.to"
-        activeClass="font-bold text-lg text-amber-500"
-        class="text-amber-800 no-underline text-base relative hover:text-amber-600 after:content-[''] after:absolute after:bottom-[-3px] after:left-0 after:w-0 after:h-[0.125rem] after:bg-amber-400 after:transition-all after:duration-300 hover:after:w-full"
+        activeClass="font-bold text-lg text-sky-500"
+        class="text-sky-950 no-underline text-base relative hover:text-sky-600 after:content-[''] after:absolute after:bottom-[-3px] after:left-0 after:w-0 after:h-[0.125rem] after:bg-sky-400 after:transition-all after:duration-300 hover:after:w-full"
         :key="link.to.name"
       >
         {{ link.text }}
