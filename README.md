@@ -1,39 +1,40 @@
 # jurassic-pixels
 
-This template should help get you started developing with Vue 3 in Vite.
+**jurassic-pixels** — is an interactive pixel-art website dedicated to dinosaurs. It's a place where you can find fun facts, colorful illustrations, and a touch of retro atmosphere.
 
-## Recommended IDE Setup
+---
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## 🚀 Features
+- 📖 Dinosaur Encyclopedia with brief descriptions
+- 🎨 8-bit style pixel illustrations
+- 🔍 Search by species
+- 🦴 404 error page with a "lost dinosaur"
+- 📱 Responsive design (convenient on both mobile and PC)
 
-## Type Support for `.vue` Imports in TS
+---
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+## 🛠️ Technologies
+- [Vue 3](https://vuejs.org/) + [Vite](https://vitejs.dev/)  
+- [Vue Router](https://router.vuejs.org/)  
+- [Tailwind CSS](https://tailwindcss.com/)  
+- Pixel illustrations 🖼️
 
-## Customize configuration
+---
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+## 📦 Installation and Run
 
-## Project Setup
+```bash
+# Clone the project from GitHub
+git clone https://github.com/martsdag/jurassic-pixels.git
 
-```sh
+# Go to the project folder
+cd pixel-dino-encyclopedia
+
+# Install dependencies
 npm install
-```
 
-### Compile and Hot-Reload for Development
-
-```sh
+# Run in development mode (local server)
 npm run dev
-```
 
-### Type-Check, Compile and Minify for Production
-
-```sh
+# Build the project for production
 npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
