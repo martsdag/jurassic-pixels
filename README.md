@@ -1,6 +1,6 @@
 # jurassic-pixels
 
-**jurassic-pixels** — is an interactive pixel-art website dedicated to dinosaurs. It's a place where you can find fun facts, colorful illustrations, and a touch of retro atmosphere.
+**jurassic-pixels** is an interactive pixel-art website dedicated to dinosaurs. It's a place where you can find fun facts, colorful illustrations, and a touch of retro atmosphere.
 
 ---
 
@@ -9,7 +9,7 @@
 - 🎨 8-bit style pixel illustrations
 - 🔍 Search by species
 - 🦴 404 error page with a "lost dinosaur"
-- 📱 Responsive design (convenient on both mobile and PC)
+- 📱 Responsive design (great on mobile and desktop)
 
 ---
 
@@ -17,7 +17,7 @@
 - [Vue 3](https://vuejs.org/) + [Vite](https://vitejs.dev/)  
 - [Vue Router](https://router.vuejs.org/)  
 - [Tailwind CSS](https://tailwindcss.com/)  
-- Pixel illustrations 🖼️
+- Custom pixel‑art assets 🖼️
 
 ---
 
@@ -28,7 +28,7 @@
 git clone https://github.com/martsdag/jurassic-pixels.git
 
 # Go to the project folder
-cd pixel-dino-encyclopedia
+cd jurassic-pixels
 
 # Install dependencies
 npm install
