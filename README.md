@@ -4,24 +4,24 @@
 
 ---
 
-## 🚀 Features
-- 📖 Dinosaur Encyclopedia with brief descriptions
-- 🎨 8-bit style pixel illustrations
-- 🔍 Search by species
-- 🦴 404 error page with a "lost dinosaur"
-- 📱 Responsive design (great on mobile and desktop)
+## Features
+- Dinosaur Encyclopedia with brief descriptions
+- 8-bit style pixel illustrations
+- Search by species
+- 404 error page with a "lost dinosaur"
+- Responsive design (great on mobile and desktop)
 
 ---
 
-## 🛠️ Technologies
+## Technologies
 - [Vue 3](https://vuejs.org/) + [Vite](https://vitejs.dev/)  
 - [Vue Router](https://router.vuejs.org/)  
 - [Tailwind CSS](https://tailwindcss.com/)  
-- Custom pixel‑art assets 🖼️
+- Custom pixel‑art assets
 
 ---
 
-## 📦 Installation and Run
+## Installation and Run
 
 ```bash
 # Clone the project from GitHub
